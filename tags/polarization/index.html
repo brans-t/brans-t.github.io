@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head><meta charset="UTF-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
@@ -28,16 +28,16 @@
 
 
 
-<meta property="og:url" content="https://brans-t.github.io/post/">
+<meta property="og:url" content="http://localhost:1313/tags/polarization/">
   <meta property="og:site_name" content="Bran&#39;s BLOG">
-  <meta property="og:title" content="Posts">
+  <meta property="og:title" content="Polarization">
   <meta property="og:description" content="A blog about physics and math......">
-  <meta property="og:locale" content="en_us">
+  <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="website">
 
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Posts">
+  <meta name="twitter:title" content="Polarization">
   <meta name="twitter:description" content="A blog about physics and math......">
 
 
@@ -102,7 +102,19 @@
 
 
 
-<meta name="description" content="Posts of Bran&#39;s BLOG">
+
+<script src="https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202401110101/show_ads_impl_fy2021.js" id="google_shimpl"></script>
+<script>
+      MathJax = {
+         tex: {
+            inlineMath: [['$','$'], ['\\(','\\)']],
+            processEscapes: true,
+            tags: 'ams',
+         },
+      };
+   </script>
+<script type="text/javascript" async="" src="https://wuli.wiki/MathJax3/es5/tex-mml-chtml.js"></script>
+<meta name="description" content="Polarization of Bran&#39;s BLOG">
 <link rel="stylesheet" href="/css/list.css" media="all">
 
 
@@ -110,7 +122,7 @@
   
 
   <title>
-Posts | Bran&#39;s BLOG
+Polarization | Bran&#39;s BLOG
 
   </title>
 </head>
@@ -278,36 +290,45 @@ Posts | Bran&#39;s BLOG
 </header>
 <div id="content">
 <div class="container pt-5" id="list-page">
-    <h2 class="text-center pb-2">Posts</h2>
+    <h2 class="text-center pb-2">Polarization</h2>
     <div class="row">
         
         <div class="col-lg-4 col-md-6 my-3">
             <div class="card-columns">
                 <div class="card h-100">
                     
+                    <div class="card-header">
+                        <a href="/blogs/physics/modern_polarization_theory/modern_polarization_theory/">
+                            <img src="/images/Physics/Polarization/title.png" class="card-img-top" alt="经典极化理论">
+                        </a>
+                    </div>
+                    
                     <div class="card-body bg-transparent p-4 shadow-sm">
-                        <a href="/post/test/" class="primary-font card-title">
-                            <h5 class="card-title bg-transparent" title="Test">Test</h5>
+                        <a href="/blogs/physics/modern_polarization_theory/modern_polarization_theory/" class="primary-font card-title">
+                            <h5 class="card-title bg-transparent" title="经典极化理论">经典极化理论</h5>
                         </a>
                         <div class="card-text secondary-font">
-                            <p><hr>
-<blockquote>
-<p>参考网址链接：</p></blockquote>
-<ol>
-<li>Neovim 官网链接：<a href="https://neovim.io/">Home - Neovim</a></li>
-<li>安装说明：<a href="https://www.fournoas.com/posts/neovim-on-windows/">Windows 下使用 Neovim · 白汤四物</a></li>
-<li>安装说明链接1：<a href="https://blog.csdn.net/qq_74043043/article/details/142267682">零基础在Windows环境下配置neovim+Lazyvim_neovim windows-CSDN博客</a></li>
-<li>安装说明链接2：<a href="https://jdhao.github.io/2018/11/16/neovim_configuration_windows-zh/">Windows 10 系统下 Neovim 安装与配置 · jdhao&rsquo;s digital space</a></li>
-<li>安装说明链接3：<a href="https://blog.csdn.net/m0_68657832/article/details/140112354">neovim小白级安装及使用_neovim 安装-CSDN博客</a></li>
-<li>配置文件：<a href="https://martinlwx.github.io/zh-cn/config-neovim-from-scratch/">从零开始配置 Neovim(Nvim) - MartinLwx&rsquo;s Blog</a></li>
-</ol>
-<hr>
-<p>接下来主要采 …</p></p>
+                            <p><h2 id="sec:1.1">模型：电偶极子</h2>
+<p>物理的电偶极子主要是由两个相距为$d$，带电荷量相同但是符号相反的电荷($\pm q$)构成的，如<a href="#fig:1.1">图1.1</a>所示：</p>
+<div id="fig:1.1" style="margin-top: 20px; text-align: center;">
+<img src="/images/Physics/Polarization/dipole.svg" alt="dipole" style="border: 1px solid #ccc; border-radius: 5px;">
+<p style="font-size: 0.8em; color: #666;">图1.1: 偶极子</p>
+</div>
+<p>电偶极子的电偶极矩定义为：</p>
+<p>$$\vec{P} = q \vec{d} \tag{1.1}$$
+其中，$\vec{d}$是两个电荷之间的距离向量，$q$是电荷量。</p>
+<h3 id="sec:1.1.1">电偶极子的近似电势</h3>
+<p>下面求电偶极子在远离电荷的地方的电势，如<a href="#fig:1.2">图1.2</a>所示：</p>
+<div id="fig:1.2" style="margin-top: 20px; text-align: center;">
+<img src="/images/Physics/Polarization/dipole2.svg" alt="dipole" style="border: 1px solid #ccc; border-radius: 5px;">
+<p style="font-size: 0.8em; color: #666;">图1.2: 偶极子的势场</p>
+</div>
+<p>设$p$是电偶极子在点$r$处的电势，$\varsigma_{+}$是正电荷$q$在点$p$处的电势，$\varsigma_{-}$是负电荷$q$在点$p$处的电势。根据库 …</p></p>
                         </div>
                     </div>
                     <div class="mt-auto post-footer bg-transparent py-3">
-                        <span class="float-start bg-transparent">Apr 17, 2025</span>
-                        <a href="/post/test/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                        <span class="float-start bg-transparent">Dec 9, 2022</span>
+                        <a href="/blogs/physics/modern_polarization_theory/modern_polarization_theory/" class="float-end btn btn-outline-info btn-sm">Read</a>
                     </div>
                 </div>
             </div>
@@ -324,6 +345,92 @@ Posts | Bran&#39;s BLOG
   </div><footer>
     
  
+ 
+<div class="container py-3" id="recent-posts">
+    
+    
+    <div class="h3 text-center text-secondary py-3">
+        Recent Posts
+    </div>
+    <div class="row justify-content-center">
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-header">
+                    <a href="/blogs/physics/modern_polarization_theory/modern_polarization_theory/">
+                        <img src="/images/Physics/Polarization/title.png" class="card-img-top" alt="经典极化理论">
+                    </a>
+                </div>
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/blogs/physics/modern_polarization_theory/modern_polarization_theory/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="经典极化理论">经典极化理论</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p><h2 id="sec:1.1">模型：电偶极子</h2>
+<p>物理的电偶极子主要是由两个相距为$d$，带电荷量相同但是符号相反的电荷($\pm q$)构成的，如<a href="#fig:1.1">图1.1</a>所示：</p>
+<div id="fig:1.1" style="margin-top: 20px; text-align: center;">
+<img src="/images/Physics/Polarization/dipole.svg" alt="dipole" style="border: 1px solid #ccc; border-radius: 5px;">
+<p style="font-size: 0.8em; color: #666;">图1.1: 偶极子</p>
+</div>
+<p>电偶极子的电偶极矩定义为：</p>
+<p>$$\vec{P} = q \vec{d} \tag{1.1}$$
+其中，$\vec{d}$是两个电荷之间的距离向量，$q$是电荷量。</p>
+<h3 id="sec:1.1.1">电偶极子的近似电势</h3>
+<p>下面求电偶极子在远离电荷的地方的电势，如<a href="#fig:1.2">图1.2</a>所示：</p>
+<div id="fig:1.2" style="margin-top: 20px; text-align: center;">
+<img src="/images/Physics/Polarization/dipole2.svg" alt="dipole" style="border: 1px solid #ccc; border-radius: 5px;">
+<p style="font-size: 0.8em; color: #666;">图1.2: 偶极子的势场</p>
+</div>
+<p>设$p$是电偶极子在点$r$处的电势，$\varsigma_{+}$是正电荷$q$在点$p$处的电势，$\varsigma_{-}$是负电荷$q$在点$p$处的电势。根据库 …</p></p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">Dec 9, 2022</span>
+                    <a href="/blogs/physics/modern_polarization_theory/modern_polarization_theory/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-header">
+                    <a href="/blogs/windows-install-neo-vim/">
+                        <img src="/images/post.jpg" class="card-img-top" alt="Windows安装Neo-vim">
+                    </a>
+                </div>
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/blogs/windows-install-neo-vim/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="Windows安装Neo-vim">Windows安装Neo-vim</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p><hr>
+<blockquote>
+<p>参考网址链接：</p></blockquote>
+<ol>
+<li>Neovim 官网链接：<a href="https://neovim.io/">Home - Neovim</a></li>
+<li>安装说明：<a href="https://www.fournoas.com/posts/neovim-on-windows/">Windows 下使用 Neovim · 白汤四物</a></li>
+<li>安装说明链接1：<a href="https://blog.csdn.net/qq_74043043/article/details/142267682">零基础在Windows环境下配置neovim+Lazyvim_neovim windows-CSDN博客</a></li>
+<li>安装说明链接2：<a href="https://jdhao.github.io/2018/11/16/neovim_configuration_windows-zh/">Windows 10 系统下 Neovim 安装与配置 · jdhao&rsquo;s digital space</a></li>
+<li>安装说明链接3：<a href="https://blog.csdn.net/m0_68657832/article/details/140112354">neovim小白级安装及使用_neovim 安装-CSDN博客</a></li>
+<li>配置文件：<a href="https://martinlwx.github.io/zh-cn/config-neovim-from-scratch/">从零开始配置 Neovim(Nvim) - MartinLwx&rsquo;s Blog</a></li>
+</ol>
+<hr>
+<p>接下来主要采 …</p></p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">Apr 3, 2021</span>
+                    <a href="/blogs/windows-install-neo-vim/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
 
 <div class="text-center pt-2">
     
@@ -365,7 +472,7 @@ Posts | Bran&#39;s BLOG
         <div class="col-md-4 text-center">
             
                 <div class="pb-2">
-                    <a href="https://brans-t.github.io/" title="Bran&#39;s BLOG">
+                    <a href="http://localhost:1313/" title="Bran&#39;s BLOG">
                         <img alt="Footer logo" src="/fav.png"
                             height="40px" width="40px">
                     </a>

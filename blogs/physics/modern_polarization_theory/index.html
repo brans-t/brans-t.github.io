@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
+<link rel="icon" href=/fav.png type="image/gif">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      media="print" onload="this.media='all'" />
+<noscript>
+  <link
+          href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+</noscript>
+
+
+<link rel="stylesheet" href="/css/font.css" media="all">
+
+
+
+<meta property="og:url" content="http://localhost:1313/blogs/physics/modern_polarization_theory/">
+  <meta property="og:site_name" content="Bran&#39;s BLOG">
+  <meta property="og:title" content="经典极化理论">
+  <meta property="og:description" content="模型：电偶极子 物理的电偶极子主要是由两个相距为$d$，带电荷量相同但是符号相反的电荷($\pm q$)构成的，如图[fig:dipole]{reference-type=“ref” reference=“fig:dipole”}所示：
+电偶极子的电偶极矩定义为： $$\vec{P} = q \vec{d} \tag{1.1}$$ 其中，$\vec{d}$是两个电荷之间的距离向量，$q$是电荷量。
+电偶极子的近似电势 下面求电偶极子在远离电荷的地方的电势，如图[fig:dipole2]{reference-type=“ref” reference=“fig:dipole2”}所示：
+设$p$是电偶极子在点$r$处的电势，$\varsigma_{&#43;}$是正电荷$q$在点$p$处的电势，$\varsigma_{-}$是负电荷$q$在点$p$处的电势。根据库仑定律， 电偶极子在点$r$处的电势为： $$V_p(r) = V_{\varsigma_{&#43;}} &#43; V_{\varsigma_{-}} = \frac{q}{4\pi\epsilon_0}\left(\frac{1}{\varsigma_{&#43;}} - \frac{1}{\varsigma_{-}}\right) \tag{1.2}$$
+由余弦定理，有 $$\begin{align*} \varsigma_{&#43;}^2 &amp;= r^2 &#43; d^2 - 2r\cdot \frac{d}{2}\cos\theta \ \varsigma_{-}^2 &amp;= r^2 &#43; d^2 &#43; 2r\cdot \frac{d}{2}\cos\theta \end{align*}$$
+因此，有：
+$$\label{eq:1.2} \frac{1}{\varsigma_{&#43;}} = \frac{1}{(r^2 &#43; \frac{d^2}{4} - rd\cos\theta)^{\frac{1}{2}}} = \frac{1}{r} \cdot \frac{1}{(1 &#43; \frac{d^2}{4r^2} - \frac{d}{r}\cos\theta)^{\frac{1}{2}}}$$
+注意，由于只考虑$r \gg d$的情况，因此$\frac{d}{r}$为一阶无穷小项，在后续计算中，忽略掉二阶及以上的无穷小项。对式[eq:1.2]{reference-type=“ref” reference=“eq:1.2”}进行 Taylor展开到一阶：">
+  <meta property="og:locale" content="zh_cn">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blogs">
+    <meta property="article:published_time" content="2022-12-09T19:53:33+05:30">
+    <meta property="article:modified_time" content="2022-12-09T19:53:33+05:30">
+    <meta property="article:tag" content="Physics">
+    <meta property="article:tag" content="Mathjax">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="经典极化理论">
+  <meta name="twitter:description" content="模型：电偶极子 物理的电偶极子主要是由两个相距为$d$，带电荷量相同但是符号相反的电荷($\pm q$)构成的，如图[fig:dipole]{reference-type=“ref” reference=“fig:dipole”}所示：
+电偶极子的电偶极矩定义为： $$\vec{P} = q \vec{d} \tag{1.1}$$ 其中，$\vec{d}$是两个电荷之间的距离向量，$q$是电荷量。
+电偶极子的近似电势 下面求电偶极子在远离电荷的地方的电势，如图[fig:dipole2]{reference-type=“ref” reference=“fig:dipole2”}所示：
+设$p$是电偶极子在点$r$处的电势，$\varsigma_{&#43;}$是正电荷$q$在点$p$处的电势，$\varsigma_{-}$是负电荷$q$在点$p$处的电势。根据库仑定律， 电偶极子在点$r$处的电势为： $$V_p(r) = V_{\varsigma_{&#43;}} &#43; V_{\varsigma_{-}} = \frac{q}{4\pi\epsilon_0}\left(\frac{1}{\varsigma_{&#43;}} - \frac{1}{\varsigma_{-}}\right) \tag{1.2}$$
+由余弦定理，有 $$\begin{align*} \varsigma_{&#43;}^2 &amp;= r^2 &#43; d^2 - 2r\cdot \frac{d}{2}\cos\theta \ \varsigma_{-}^2 &amp;= r^2 &#43; d^2 &#43; 2r\cdot \frac{d}{2}\cos\theta \end{align*}$$
+因此，有：
+$$\label{eq:1.2} \frac{1}{\varsigma_{&#43;}} = \frac{1}{(r^2 &#43; \frac{d^2}{4} - rd\cos\theta)^{\frac{1}{2}}} = \frac{1}{r} \cdot \frac{1}{(1 &#43; \frac{d^2}{4r^2} - \frac{d}{r}\cos\theta)^{\frac{1}{2}}}$$
+注意，由于只考虑$r \gg d$的情况，因此$\frac{d}{r}$为一阶无穷小项，在后续计算中，忽略掉二阶及以上的无穷小项。对式[eq:1.2]{reference-type=“ref” reference=“eq:1.2”}进行 Taylor展开到一阶：">
+
+
+<link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
+<link rel="stylesheet" href="/css/footer.css" media="all">
+
+
+<link rel="stylesheet" href="/css/theme.css" media="all">
+
+<style>
+    :root {
+        --text-color: #343a40;
+        --text-secondary-color: #6c757d;
+        --text-link-color: #007bff;
+        --background-color: #eaedf0;
+        --secondary-background-color: #64ffda1a;
+        --primary-color: #007bff;
+        --secondary-color: #f8f9fa;
+
+         
+        --text-color-dark: #e4e6eb;
+        --text-secondary-color-dark: #b0b3b8;
+        --text-link-color-dark: #ffffff;
+        --background-color-dark: #18191a;
+        --secondary-background-color-dark: #212529;
+        --primary-color-dark: #ffffff;
+        --secondary-color-dark: #212529;
+    }
+    body {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    html {
+        background-color: var(--background-color) !important;
+    }
+
+    body::-webkit-scrollbar {
+        height: 0px;
+        width: 8px;
+        background-color: var(--background-color);
+    }
+
+    ::-webkit-scrollbar-track {
+        border-radius: 1rem;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 1rem;
+        background: #b0b0b0;
+        outline: 1px solid var(--background-color);
+    }
+
+    #search-content::-webkit-scrollbar {
+        width: .5em;
+        height: .1em;
+        background-color: var(--background-color);
+    }
+</style>
+
+
+
+
+<script src="https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202401110101/show_ads_impl_fy2021.js" id="google_shimpl"></script>
+<script>
+      MathJax = {
+         tex: {
+            inlineMath: [['$','$'], ['\\(','\\)']],
+            processEscapes: true,
+            tags: 'ams',
+         },
+      };
+   </script>
+<script type="text/javascript" async="" src="https://wuli.wiki/MathJax3/es5/tex-mml-chtml.js"></script>
+<meta name="description" content="">
+<link rel="stylesheet" href="/css/single.css">
+
+
+<script defer src="/fontawesome-6/all-6.4.2.js"></script>
+
+
+  
+  
+
+  <title>
+经典极化理论 | Bran&#39;s BLOG
+
+  </title>
+</head>
+
+<body class="light">
+  
+  
+<script>
+    let localStorageValue = localStorage.getItem("pref-theme");
+    let mediaQuery = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    switch (localStorageValue) {
+        case "dark":
+            document.body.classList.add('dark');
+            break;
+        case "light":
+            document.body.classList.remove('dark');
+            break;
+        default:
+            if (mediaQuery) {
+                document.body.classList.add('dark');
+            }
+            break;
+    }
+</script>
+
+
+
+
+<script>
+    var prevScrollPos = window.pageYOffset;
+    window.addEventListener("scroll", function showHeaderOnScroll() {
+        let profileHeaderElem = document.getElementById("profileHeader");
+        let currentScrollPos = window.pageYOffset;
+        let resetHeaderStyle = false;
+        let showNavBarOnScrollUp =  true ;
+        let showNavBar = showNavBarOnScrollUp ? prevScrollPos > currentScrollPos : currentScrollPos > 0;
+        if (showNavBar) {
+            profileHeaderElem.classList.add("showHeaderOnTop");
+        } else {
+            resetHeaderStyle = true;
+        }
+        if(currentScrollPos === 0) {
+            resetHeaderStyle = true;
+        }
+        if(resetHeaderStyle) {
+            profileHeaderElem.classList.remove("showHeaderOnTop");
+        }
+        prevScrollPos = currentScrollPos;
+    });
+</script>
+
+
+
+<header id="profileHeader">
+    <nav class="pt-3 navbar navbar-expand-lg animate">
+        <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
+            
+            <a class="navbar-brand primary-font text-wrap" href="/">
+                
+                <img src="/fav.png" width="30" height="30"
+                    class="d-inline-block align-top">
+                Hugo Profile
+                
+            </a>
+
+            
+                <div>
+                    <input id="search" autocomplete="off" class="form-control mr-sm-2 d-none d-md-block" placeholder='Ctrl &#43; k to Search...'
+                        aria-label="Search" oninput="searchOnChange(event)">
+                </div>
+            
+
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true">
+                    <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
+                </svg>
+            </button>
+
+            
+            <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
+                <ul class="navbar-nav ms-auto text-center">
+                    
+                        <li class="nav-item navbar-text d-block d-md-none">
+                            <div class="nav-link">
+                                <input id="search" autocomplete="off" class="form-control mr-sm-2" placeholder='Ctrl &#43; k to Search...' aria-label="Search" oninput="searchOnChange(event)">
+                            </div>
+                        </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#about" aria-label="about">
+                            About Me
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/blogs" title="Blog posts">
+                            
+                            Blog
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/gallery" title="Blog posts">
+                            
+                            Gallery
+                        </a>
+                    </li>
+                    
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        
+                        <div class="text-center">
+                            <button id="theme-toggle">
+                                <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                                </svg>
+                                <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="5"></circle>
+                                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </li>
+                    
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="content">
+<section id="single">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-12 col-lg-9">
+        <div class="pr-lg-4">
+          <div class="title mb-5">
+            <h1 class="text-center mb-4">经典极化理论</h1>
+            <div class="text-center">
+              
+                Brans-t
+                <small>|</small>
+              
+              Dec 9, 2022
+
+              
+              <span id="readingTime">
+                min read
+              </span>
+              
+            </div>
+          </div>
+          
+          <div class="featured-image">
+            <img class="img-fluid mx-auto d-block" src="/images/mathjax.png" alt="经典极化理论">
+          </div>
+          
+          <article class="page-content  p-2">
+          <h2 id="sec:1.1">模型：电偶极子</h2>
+<p>物理的电偶极子主要是由两个相距为$d$，带电荷量相同但是符号相反的电荷($\pm q$)构成的，如图<a href="#fig:dipole">[fig:dipole]</a>{reference-type=&ldquo;ref&rdquo;
+reference=&ldquo;fig:dipole&rdquo;}所示：</p>
+<p><img src="/images/1.svg" alt="SVG 图形"></p>
+<p>电偶极子的电偶极矩定义为：
+$$\vec{P} = q \vec{d} \tag{1.1}$$
+其中，$\vec{d}$是两个电荷之间的距离向量，$q$是电荷量。</p>
+<h3 id="sec:1.1.1">电偶极子的近似电势</h3>
+<p>下面求电偶极子在远离电荷的地方的电势，如图<a href="#fig:dipole2">[fig:dipole2]</a>{reference-type=&ldquo;ref&rdquo;
+reference=&ldquo;fig:dipole2&rdquo;}所示：</p>
+<p>设$p$是电偶极子在点$r$处的电势，$\varsigma_{+}$是正电荷$q$在点$p$处的电势，$\varsigma_{-}$是负电荷$q$在点$p$处的电势。根据库仑定律，
+电偶极子在点$r$处的电势为：
+$$V_p(r) = V_{\varsigma_{+}} + V_{\varsigma_{-}}
+= \frac{q}{4\pi\epsilon_0}\left(\frac{1}{\varsigma_{+}} - \frac{1}{\varsigma_{-}}\right) \tag{1.2}$$</p>
+<p>由余弦定理，有 $$\begin{align*}
+\varsigma_{+}^2 &amp;= r^2 + d^2 - 2r\cdot \frac{d}{2}\cos\theta \
+\varsigma_{-}^2 &amp;= r^2 + d^2 + 2r\cdot \frac{d}{2}\cos\theta
+\end{align*}$$</p>
+<p>因此，有：</p>
+<p>$$\label{eq:1.2}
+\frac{1}{\varsigma_{+}}  = \frac{1}{(r^2 + \frac{d^2}{4} - rd\cos\theta)^{\frac{1}{2}}}
+= \frac{1}{r} \cdot \frac{1}{(1 + \frac{d^2}{4r^2} - \frac{d}{r}\cos\theta)^{\frac{1}{2}}}$$</p>
+<p>注意，由于只考虑$r \gg d$的情况，因此$\frac{d}{r}$为一阶无穷小项，在后续计算中，忽略掉二阶及以上的无穷小项。对式<a href="#eq:1.2">[eq:1.2]</a>{reference-type=&ldquo;ref&rdquo;
+reference=&ldquo;eq:1.2&rdquo;}进行 Taylor展开到一阶：</p>
+<p>$$\label{eq:1.3}
+\begin{align*}
+\frac{1}{\varsigma_{+}} = \frac{1}{r} \cdot (1-\frac{d}{r}\cos\theta)^{-\frac{1}{2}} \underrightarrow{\text{Taylor展开}}<br>
+&amp; = \frac{1}{r} \cdot (1 + (-\frac{1}{2})\cdot (-\frac{d}{r}\cos\theta)) \
+&amp; = \frac{1}{r} \cdot (1 + \frac{1}{2}\cdot \frac{d}{r}\cos\theta)
+\end{align*}$$</p>
+<p>同理，有：</p>
+<p>$$\label{eq:1.4}
+\frac{1}{\varsigma_{-}} = \frac{1}{r} \cdot (1 + \frac{d}{r}\cos\theta)^{-\frac{1}{2}} \simeq
+\frac{1}{r} \cdot (1 - \frac{1}{2}\cdot \frac{d}{r}\cos\theta)$$</p>
+<p>将式<a href="#eq:1.3">[eq:1.3]</a>{reference-type=&ldquo;ref&rdquo;
+reference=&ldquo;eq:1.3&rdquo;}和式<a href="#eq:1.4">[eq:1.4]</a>{reference-type=&ldquo;ref&rdquo;
+reference=&ldquo;eq:1.4&rdquo;}代入到式<a href="#eq:1.2">[eq:1.2]</a>{reference-type=&ldquo;ref&rdquo;
+reference=&ldquo;eq:1.2&rdquo;}中，可以得到：</p>
+<p>$$\begin{align*}
+V_p =  V_p(r) \simeq V_{\varsigma_{+}} + V_{\varsigma_{-}} &amp;=  \frac{1}{\varsigma_{+}} - \frac{1}{\varsigma_{-}} \
+&amp;= \frac{q}{4\pi\epsilon_0} \cdot \frac{d}{r^2}\cos\theta \
+&amp;= \frac{1}{4\pi\epsilon_0} \cdot \frac{qd\cos\theta}{r^2}
+\end{align*}$$
+因此，对于较大的$r$，电偶极子的电势是按照$1/r^2$衰减的。</p>
+<h3 id="任意局域电荷分布的近似电势">任意局域电荷分布的近似电势</h3>
+<p>如图<a href="#fig:1.3">[fig:1.3]</a>{reference-type=&ldquo;ref&rdquo;
+reference=&ldquo;fig:1.3&rdquo;}所示为一个任意的局域电荷分布，我们求$p$点处的近似电势。</p>
+<p>假设在局域电荷分布体内的$r^{&rsquo;}$处的电荷密度为$\rho(r^{&rsquo;})$，则此处的电荷量为$\rho(r^{&rsquo;})d\tau^{&rsquo;}$，因此，在$p$点处的电势为：</p>
+<p>$$V_p(r) = \frac{1}{4\pi\epsilon_0} \cdot \int_V \frac{1}{\varsigma} \cdot \rho(r^{&rsquo;}) d\tau^{&rsquo;}$$
+同理，由余弦定理，可得：
+$$\varsigma^2 = r^2 + r^{&lsquo;2} - 2r\cdot r^{&rsquo;}\cos\theta = r^{2}[1 + (\frac{r^{&rsquo;}}{r})^{2} - \frac{2r^{&rsquo;}}{r}\cos\theta]$$
+为简化计算，令$\epsilon = \frac{r^{&rsquo;}}{r}( \frac{r^{&rsquo;}}{r} - 2\cos\theta)$，因此有：</p>
+<p>$$\varsigma^2 = r^{2}(1 + \epsilon) \Rightarrow \varsigma = r(1 + \epsilon)^{\frac{1}{2}}$$</p>
+<p>对于电荷分布区域以外的部分，$|\vec{r}| \gg |\vec{r^{&rsquo;}}|$，故$\epsilon \to 0$（无穷小）</p>
+<p>$$\frac{1}{\varsigma} = \frac{1}{r}(1 + \epsilon)^{-\frac{1}{2}} \quad \underrightarrow{\text{Taylor展开}}\quad \frac{1}{r}
+(1 - \frac{1}{2}\epsilon + \frac{3}{8}\epsilon^{2} - \frac{5}{16}\epsilon^{3} + &hellip;)$$</p>
+<p>代入$\epsilon$的表达式，得到：</p>
+<p>$$\label{eq:1.5}
+\begin{align*}
+\frac{1}{\varsigma} &amp;= \frac{1}{r}[1 - \frac{1}{2} \cdot (\frac{r^{&rsquo;}}{r})(\frac{r^{&rsquo;}}{r}-2\cos\theta)
++ \frac{3}{8} \cdot (\frac{r^{&rsquo;}}{r})^{2}(\frac{r^{&rsquo;}}{r}-2\cos\theta)^{2} + &hellip;] \
+&amp;= \frac{1}{r}[1 + \frac{r^{&rsquo;}}{r}\cos\theta - \frac{1}{2}(\frac{r^{&rsquo;}}{r})^{2} + \frac{3}{8}(\frac{r^{&rsquo;}}{r})^{4}
++ \frac{3}{8}(\frac{r^{&rsquo;}}{r})^{2}\cdot 4\cos^{2}\theta -\frac{3}{4}(\frac{r^{&rsquo;}}{r})^{3}\cos\theta - &hellip;&hellip;] \
+&amp; = \frac{1}{r}[1 + \frac{r^{&rsquo;}}{r}\cos\theta + (\frac{r^{&rsquo;}}{r})^{2}\frac{(3\cos^{2}\theta-1)}{2} + &hellip;&hellip;]
+\end{align*}$$</p>
+<p>式<a href="#eq:1.5">[eq:1.5]</a>{reference-type=&ldquo;ref&rdquo;
+reference=&ldquo;eq:1.5&rdquo;}中$(\frac{r^{&rsquo;}}{r})^{n}$的系数为：勒让德多项式$P_n(\cos\theta)$，即：
+$$\frac{1}{\varsigma} = \frac{1}{r}\sum_{n=0}^{\infty}P_n(\cos\theta)(\frac{r^{&rsquo;}}{r})^{n}$$</p>
+<p>因此，电偶极子在$p$点处的电势为： $$\label{eq:1.6}
+\begin{align*}
+V_p(r) = \frac{1}{4\pi\epsilon_0} \cdot \int_V \frac{1}{\varsigma} \cdot \rho(r^{&rsquo;}) d\tau^{&rsquo;}
+&amp;= \frac{1}{4\pi\epsilon_0} \cdot \int_V \frac{1}{r}\sum_{n=0}^{\infty}P_n(\cos\theta)(\frac{r^{&rsquo;}}{r})^{n} \cdot \rho(r^{&rsquo;}) d\tau^{&rsquo;}\
+&amp;= \frac{1}{4\pi\epsilon_0} \cdot \sum_{n=0}^{\infty}\frac{1}{r^{n+1}}\int_V (r^{&rsquo;})^{n} P_n(\cos\theta) \cdot \rho(r^{&rsquo;}) d\tau^{&rsquo;} \
+\end{align*}$$</p>
+<p>展开式<a href="#eq:1.6">[eq:1.6]</a>{reference-type=&ldquo;ref&rdquo; reference=&ldquo;eq:1.6&rdquo;}，</p>
+<p>$$\label{eq:1.7}
+V(r) = \frac{1}{4\pi\epsilon_0} \cdot \left[\frac{1}{r}\int_V \rho(r^{&rsquo;}) d\tau^{&rsquo;} + \frac{1}{r^{2}}\int_V r^{&rsquo;}P_1(\cos\theta) \cdot \rho(r^{&rsquo;}) d\tau^{&rsquo;} + &hellip;\right]$$</p>
+<p>可以看到，$V(r)$是按照$\frac{1}{r}$的幂次多级展开的</p>
+<ol>
+<li>
+<p>第一项：单极子贡献（n = 0）</p>
+</li>
+<li>
+<p>第二项：偶极子贡献（n = 1）</p>
+</li>
+<li>
+<p>第三项：...</p>
+</li>
+</ol>
+<p>将勒让德函数系数代入式<a href="#eq:1.7">[eq:1.7]</a>{reference-type=&ldquo;ref&rdquo;
+reference=&ldquo;eq:1.7&rdquo;}中，得到： $$\label{eq:1.8}
+V(r) = \frac{1}{4\pi\epsilon_0} \cdot \left[\frac{1}{r}\int_V \rho(r^{&rsquo;}) d\tau^{&rsquo;} + \frac{1}{r^{2}}\int_V r^{&rsquo;}\cos\theta \cdot \rho(r^{&rsquo;}) d\tau^{&rsquo;} + &hellip;\right]$$</p>
+<p>所以，</p>
+<p>$$V_{\text{单极}} = \frac{1}{4\pi\epsilon_0} \cdot \frac{Q}{r}  \quad (Q = \int_V \rho(r^{&rsquo;}) d\tau^{&rsquo;})$$</p>
+<p>若总电荷$Q = 0$，则主要的贡献为偶极子贡献：</p>
+<p>$$V_{\text{偶极}} = \frac{1}{4\pi\epsilon_0} \frac{1}{r^{2}} \cdot \int_V r^{&rsquo;}\cos\theta \cdot \rho(r^{&rsquo;}) d\tau^{&rsquo;}$$</p>
+<p>不难看出，$r^{&rsquo;}\cos\theta$满足以下的关系：</p>
+<p>$$r^{&rsquo;}\cos\theta = \hat{r} \cdot \vec{r^{&rsquo;}}  \quad(\hat{r}\text{为}\vec{r}\text{方向的单位矢量})$$</p>
+<p>因此，</p>
+<p>$$\label{eq:1.9}
+V_{\text{偶极}} = \frac{1}{4\pi\epsilon_0} \cdot \frac{1}{r^{2}} \cdot \int_V \hat{r} \cdot \vec{r^{&rsquo;}} \cdot \rho(r^{&rsquo;}) d\tau^{&rsquo;}
+= \frac{1}{4\pi\epsilon_0} \cdot \frac{1}{r^{2}} \cdot \hat{r} \cdot \int_V \vec{r^{&rsquo;}} \cdot \rho(r^{&rsquo;}) d\tau^{&rsquo;}$$</p>
+<p>令$\vec{p} = \int_V \vec{r^{&rsquo;}} \cdot \rho(r^{&rsquo;}) d\tau^{&rsquo;}$，则式<a href="#eq:1.9">[eq:1.9]</a>{reference-type=&ldquo;ref&rdquo;
+reference=&ldquo;eq:1.9&rdquo;}可以写成：</p>
+<p>$$V_{\text{偶极}} = \frac{1}{4\pi\epsilon_0} \cdot \frac{\hat{r} \cdot \vec{p}}{r^{2}}$$</p>
+<p>因此，偶极矩对电势的贡献为：</p>
+<p>$$\label{eq:1.10}
+V_{\text{偶极}} = \frac{1}{4\pi\epsilon_0} \cdot \frac{\vec{p} \cdot \hat{r}}{r^{2}}$$</p>
+<p>综上，偶极矩是由电荷分布的几何参量决定的，通常按照以下的方式定义：
+$$\vec{p} = \int_V \vec{r^{&rsquo;}} \cdot \rho(r^{&rsquo;}) d\tau^{&rsquo;} \tag{1.11}$$
+其中，$\vec{r^{&rsquo;}}$是电荷分布的几何位置矢量，$\rho(r^{&rsquo;})$是电荷分布的电荷密度。</p>
+<p>对于连续分布电荷的情况，电荷密度$\rho(r^{&rsquo;})$是一个函数，可以按照图<a href="#fig:1.4">[fig:1.4]</a>{reference-type=&ldquo;ref&rdquo;
+reference=&ldquo;fig:1.4&rdquo;}的方式来计算：</p>
+<p>对于点电荷集合的偶极矩为：</p>
+<p>$$\vec{p} = \sum_{i=1}^{N} q_i \cdot \vec{r_i} \tag{1.12}$$
+其中，$q_i$是第$i$个点电荷的电荷量，$\vec{r_i}$是第$i$个点电荷的位置矢量。例如，对于一对偶极子，偶极矩计算按图<a href="#fig:dipole1">[fig:dipole1]</a>{reference-type=&ldquo;ref&rdquo;
+reference=&ldquo;fig:dipole1&rdquo;}所示：</p>
+<h3 id="电偶极子的电场">电偶极子的电场</h3>
+<p>下面计算电偶极子在$p$点处的电场，如图<a href="#fig:dipole3">[fig:dipole3]</a>{reference-type=&ldquo;ref&rdquo;
+reference=&ldquo;fig:dipole3&rdquo;}所示：</p>
+<p>$$V_{\text{偶极}}(r,\theta) = \frac{1}{4\pi\epsilon_0} \cdot \frac{\vec{p} \cdot \hat{r}}{r^{2}} = \frac{1}{4\pi\epsilon_0} \cdot \frac{\vec{p} \cdot \vec{r}}{r^{3}} = \frac{1}{4\pi\epsilon_0} \cdot \frac{p\cos\theta}{r^{2}}$$</p>
+<p>已知$\vec{E} = -\nabla V$，因此，偶极子在$p$点处的电场为：
+$$\vec{E} = -\nabla V_{\text{偶极}} = -\frac{\partial V_{\text{偶极}}}{\partial r}\hat{r} - \frac{1}{r}\frac{\partial V_{\text{偶极}}}{\partial \theta}\hat{\theta}$$
+其中，$\hat{r}$和$\hat{\theta}$分别为$r$和$\theta$方向的单位矢量。其中
+$$\begin{align*}
+E_{r} &amp;= -\frac{\partial V_{\text{偶极}}}{\partial r} = \frac{1}{4\pi\epsilon_0} \cdot \frac{2p}{r^{3}} \cdot \cos\theta\
+E_{\theta} &amp;= -\frac{1}{r}\frac{\partial V_{\text{偶极}}}{\partial \theta} = \frac{1}{4\pi\epsilon_0} \cdot \frac{p}{r^{3}} \cdot \sin\theta \
+E_{\phi} &amp;= -\frac{1}{r\sin\theta}\frac{\partial V_{\text{偶极}}}{\partial \phi} = 0
+\end{align*}$$</p>
+<p>因此，偶极子在$p$点处的电场为：
+$$\boxed{\boldsymbol{E}<em>\text{偶极}{(r,\theta)}=\frac{p}{4\pi\boldsymbol{\varepsilon}</em>{0}r^{3}}(2\cos\theta\boldsymbol{\hat{r}}+\sin\theta\boldsymbol{\hat{\theta}})}$$</p>
+<h2 id="经典极化理论">经典极化理论</h2>
+<h3 id="诱导偶极子">诱导偶极子</h3>
+<p>在电介质中，所有的电子都是束缚的，不能自由移动。电介质的极化是由于电场的作用使得电介质中的正负电荷发生相对位移而产生的。电介质的极化
+可以用极化矢量$\vec{P}$来描述。极化矢量$\vec{P}$是单位体积内偶极矩的总和。将电中性的原子放置在电场$\vec{E}$中，如图<a href="#fig:polarization">[fig:polarization]</a>{reference-type=&ldquo;ref&rdquo;
+reference=&ldquo;fig:polarization&rdquo;} 所示：</p>
+<p>正负电荷之间的相互作用力使得正负电荷发生相对位移，形成偶极子。</p>
+<h3 id="极化分子">极化分子</h3>
+<p>诱导偶极子的偶极矩是由外电场诱导的，而一些分子具有固有的偶极矩，如图<a href="#fig:polarization_molecule">[fig:polarization_molecule]</a>{reference-type=&ldquo;ref&rdquo;
+reference=&ldquo;fig:polarization_molecule&rdquo;}所示：</p>
+<p>产生一个力矩，力矩的大小为：
+$$\tau = \vec{p} \times \vec{E} = q\cdot d \cdot E \cdot \sin\theta$$</p>
+<p>其中，$d$为偶极子间距，$\theta$为偶极子与电场的夹角。方向使得偶极子与电场的方向相同。</p>
+<p>以上两种机制最终会产生相同的基本结果，即许多小的电偶极矩会沿着外电场的方向，材料发生极化，通长的度量为：
+$$\vec{P} = \frac{1}{V}\sum_{i=1}^{N}\vec{p}_{i} = \frac{N}{V}\cdot \vec{p}$$
+其中，$N$为单位体积内的偶极子数目，$V$为单位体积，称$\vec{P}$为极化强度矢量。</p>
+<h3 id="极化物体产生的电场">极化物体产生的电场</h3>
+<p>对于一个已经极化的物体&mdash;&mdash;其内部有许多排列整齐的微小偶极子，单位偶极矩为$\vec{P}$，计算其产生的电场。对于单个的偶极子，其产生的电势为</p>
+<p>$$V(r) = \frac{1}{4\pi\boldsymbol{\varepsilon}_{0}} \cdot  \frac{\vec{p} \cdot \hat{r}}{r^{2}}$$</p>
+<p>其中，$\vec{r}$指向要计算的电势的位置矢量，对于每一个小的体元$d\tau^{&rsquo;}$都有一个偶极矩$\vec{p} = \vec{P}d\tau^{&rsquo;}$，因此，总的电
+势为：</p>
+<p>$$V(r) = \frac{1}{4\pi\boldsymbol{\varepsilon}<em>{0}} \cdot \int</em>{V} \frac{\vec{P}(r^{&rsquo;}) \cdot \hat{r}}{r^{2}}d\tau^{&rsquo;}$$</p>
+<p>下面，把$\frac{\hat{r}}{r^{2}}$表示为其它形式，即</p>
+<p>$$\begin{align*}
+\nabla^{&rsquo;}(\frac{1}{r}) &amp;= \nabla^{&rsquo;}\frac{1}{\sqrt{(x^{&rsquo;&rsquo;}-x^{&rsquo;})^{2} + (y^{&rsquo;&rsquo;}-y^{&rsquo;})^{2} + (z^{&rsquo;&rsquo;}-z^{&rsquo;})^{2}}}\
+&amp;= \frac{\partial }{\partial x^{&rsquo;}}\frac{1}{\sqrt{(x^{&rsquo;&rsquo;}-x^{&rsquo;})^{2} + (y^{&rsquo;&rsquo;}-y^{&rsquo;})^{2} + (z^{&rsquo;&rsquo;}-z^{&rsquo;})^{2}}} \vec{i} + \
+&amp;\frac{\partial }{\partial y^{&rsquo;}}\frac{1}{\sqrt{(x^{&rsquo;&rsquo;}-x^{&rsquo;})^{2} + (y^{&rsquo;&rsquo;}-y^{&rsquo;})^{2} + (z^{&rsquo;&rsquo;}-z^{&rsquo;})^{2}}} \vec{j} +\
+&amp;\frac{\partial }{\partial z^{&rsquo;}}\frac{1}{\sqrt{(x^{&rsquo;&rsquo;}-x^{&rsquo;})^{2} + (y^{&rsquo;&rsquo;}-y^{&rsquo;})^{2} + (z^{&rsquo;&rsquo;}-z^{&rsquo;})^{2}}} \vec{k} \
+&amp; = \frac{\hat{r}}{r^{2}}
+\end{align*}$$</p>
+<p>因此有，</p>
+<p>$$V = \frac{1}{4\pi\boldsymbol{\varepsilon}<em>{0}} \cdot \int</em>{V} \vec{P} \cdot \nabla^{&rsquo;}(\frac{1}{r})d\tau^{&rsquo;}$$</p>
+<p>利用矢量微积分规则$\nabla\cdot(f\vec{A}) = f(\nabla \cdot \vec{A}) + \vec{A}\cdot (\nabla f)$以及分部积分可得，</p>
+<p>$$V = \frac{1}{4\pi\varepsilon_{0}}\left[\int_{V}\nabla^{\prime}\cdot\left(\frac{\vec{P}}{r}\right)\mathrm{d}\tau^{\prime}-\int_{V}\frac{1}{r}(\nabla^{\prime}\cdot \vec{P})\mathrm{d}\tau^{\prime}\right]$$</p>
+<p>利用散度定理，可以得到</p>
+<p>$$\label{eq:1.32}
+V=\frac{1}{4\pi\varepsilon_{0}}\oint_{S}\frac{1}{r}\boldsymbol{\vec{P}}\cdot\mathrm{d}\mathbf{a}^{\prime}-\int_{V}\frac{1}{r}(\nabla^{\prime}\cdot\boldsymbol{\vec{P}})\mathrm{d}\tau^{\prime}$$</p>
+<p>其中，第一项类似于表面电荷：</p>
+<p>$$\boxed{\sigma_\mathrm{b}\equiv P\cdot\hat{n}}$$</p>
+<p>的电势($\hat{n}$为法向的单位矢量)，第二项类似于体电荷：</p>
+<p>$$\boxed{\rho_b \equiv -\nabla\cdot\vec{P}}$$</p>
+<p>的电势，因此可以把<a href="#eq:1.32">[eq:1.32]</a>{reference-type=&ldquo;ref&rdquo;
+reference=&ldquo;eq:1.32&rdquo;}写作：</p>
+<p>$$V(\boldsymbol{r})=\frac{1}{4 \pi \varepsilon_{0}} \oint_{S} \frac{\sigma_{\mathrm{b}}}{r} \mathrm{~d} a^{\prime}+\frac{1}{4 \pi \varepsilon_{0}} \int_{V} \frac{\rho_{\mathrm{b}}}{r} \mathrm{~d} \tau^{\prime}$$</p>
+<p>因此，极化物体的电势与体电荷加面电荷产生的电势是一样的。因此只需求出束缚电荷，然后像计算其他电荷的电场一样，计算束缚电荷的电场。</p>
+<p>下面，分别计算面电荷$\sigma_{\mathrm{b}}$和体电荷$\rho_{\mathrm{b}}$。</p>
+<p>假设在物体表面有一小块其对应的偶极矩为$\vec{P}(Ad)$，其中$Ad$为该小块的体积，如下图<a href="#fig:2.0">[fig:2.0]</a>{reference-type=&ldquo;ref&rdquo;
+reference=&ldquo;fig:2.0&rdquo;}所示：</p>
+<p>令终端的电荷为$q$，因此电偶极矩为$qd$，因此有$q = PA$，对于图中的情况，可以得到表面的电荷密度为：</p>
+<p>$$\sigma_b = \frac{q}{A} = P$$</p>
+<p>如果考虑任意一小块表面的面电荷密度，假设其单位表面的法向单位矢量为$\hat{n}$，因此</p>
+<p>$$\sigma_b = \frac{q}{A} = \vec{P}\cdot \cos\theta = \vec{P} \cdot \hat{n}$$</p>
+<p>因此，极化效应最终在表面产生了束缚电荷$\sigma_b = \vec{P} \cdot \hat{n}$。假设极化不均匀那么在物体的内部会产生束缚电荷的累计，即
+物体内部的某一区域会出现一定程度的电荷累计，如图所示：</p>
+<p>可以看到，由于不均匀区域电荷的堆积，会导致此处的极化矢量$\vec{P}$有散度，并且已知在一定的体积内的全部的束缚电荷$\int_{V}\rho_{b}d\tau$
+和被排挤出表面的电荷大小相等符号相反，已知面电荷密度为$\vec{P}\cdot\hat{n}$，因此，有</p>
+<p>$$\int_{V}\rho_{\mathrm{b}} \mathrm{~d} \tau = -\oint_{S} \boldsymbol{\vec{P}} \cdot \mathrm{~d} \boldsymbol{a}
+=-\int_{V}(\boldsymbol{\nabla} \cdot \boldsymbol{\vec{P}}) \mathrm{d} \tau$$</p>
+<p>因此，体电荷密度为：</p>
+<p>$$\rho_{\mathrm{b}} = -\nabla\cdot\vec{P}$$</p>
+<h3 id="电位移矢量">电位移矢量</h3>
+<p>极化效应会产生积累的束缚电荷，包括电介质内部的电荷$\rho_{\mathrm{b}} = -\nabla\cdot\vec{P}$和表面电荷$\vec{P}\cdot\hat{n}$，现
+在考虑电介质中整体的一个效应，即束缚电荷和物体中的自由电荷，因此电介质内部的总的电荷密度为：</p>
+<p>$$\rho = \rho_{\mathrm{b}} + \rho_{\mathrm{f}}$$</p>
+<p>高斯定理可以改写为：</p>
+<p>$$\epsilon_{0}\nabla\cdot \vec{E} = \rho = \rho_{\mathrm{b}} + \rho_{\mathrm{f}} = -\nabla\cdot\vec{P} + \rho_{\mathrm{f}}$$</p>
+<p>其中，$\vec{E}$为总电场，而不仅仅是极化部分产生的电场。移项可得：</p>
+<p>$$\nabla \cdot ( \epsilon_{0}\nabla\cdot \vec{E} + \nabla\cdot\vec{P}) = \rho_{\mathrm{f}}$$</p>
+<p>因此，令</p>
+<p>$$\boldsymbol{\vec{D}} \equiv \varepsilon_{0} \boldsymbol{\vec{E}}+\boldsymbol{\vec{P}}$$</p>
+<p>称为电极化矢量。（关于电极化矢量$\vec{D}$的讨论后续再补充）</p>
+<h2 id="线性电介质">线性电介质</h2>
+<p>对于大多数物质，在电场不太强的情况下，极化强度与电场成正比：</p>
+<p>$$\label{eq:1.44}
+\vec{P} = \varepsilon_{0} \kappa_{e} \vec{E}$$</p>
+<p>式中的比例系数$\kappa_{e}$称为电介质的电极化率，满足式<a href="#eq:1.44">[eq:1.44]</a>{reference-type=&ldquo;ref&rdquo;
+reference=&ldquo;eq:1.44&rdquo;}的电介质称为线性电介质，在线性介质中我们有</p>
+<p>$$\boldsymbol{\vec{D}} = \varepsilon_{0} \boldsymbol{\vec{E}}+\boldsymbol{\vec{P}} =
+\varepsilon_{0} \boldsymbol{\vec{E}}+\varepsilon_{0} \chi_{\mathrm{e}} \boldsymbol{\vec{E}}=\varepsilon_{0}\left(1+\chi_{\mathrm{e}}\right) \boldsymbol{\vec{E}}$$</p>
+<p>所以 $\boldsymbol{\vec{D}}$ 也和 $\boldsymbol{\vec{E}}$ 成比例：</p>
+<p>$$\boldsymbol{\vec{D}} = \varepsilon \boldsymbol{\vec{E}}$$</p>
+<p>式中</p>
+<p>$$\varepsilon \equiv \varepsilon_{0}\left(1+\chi_{\mathrm{e}}\right)$$</p>
+<p>这个新常数 $\varepsilon$
+称为材料的介电常数。去掉因子$\epsilon_0$，剩下的量纲为一的量：</p>
+<p>$$\epsilon_{r} = 1 + \kappa_{e} = \frac{\epsilon}{\epsilon_0}$$
+称为材料的相对介电常数。</p>
+
+          </article>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3">
+        <div id="stickySideBar" class="sticky-sidebar">
+          
+          <aside class="toc">
+              <h5>
+                Table Of Contents
+              </h5>
+              <div class="toc-content">
+                <nav id="TableOfContents">
+  <ul>
+    <li><a href="#sec:1.1">模型：电偶极子</a>
+      <ul>
+        <li><a href="#sec:1.1.1">电偶极子的近似电势</a></li>
+        <li><a href="#任意局域电荷分布的近似电势">任意局域电荷分布的近似电势</a></li>
+        <li><a href="#电偶极子的电场">电偶极子的电场</a></li>
+      </ul>
+    </li>
+    <li><a href="#经典极化理论">经典极化理论</a>
+      <ul>
+        <li><a href="#诱导偶极子">诱导偶极子</a></li>
+        <li><a href="#极化分子">极化分子</a></li>
+        <li><a href="#极化物体产生的电场">极化物体产生的电场</a></li>
+        <li><a href="#电位移矢量">电位移矢量</a></li>
+      </ul>
+    </li>
+    <li><a href="#线性电介质">线性电介质</a></li>
+  </ul>
+</nav>
+              </div>
+          </aside>
+          
+
+          
+          <aside class="tags">
+            <h5>Tags</h5>
+            <ul class="tags-ul list-unstyled list-inline">
+              
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/physics"
+                target="_blank"
+              >Physics</a></li>
+              
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/mathjax"
+                target="_blank"
+              >Mathjax</a></li>
+              
+            </ul>
+          </aside>
+          
+
+          
+          <aside class="social">
+            <h5>Social</h5>
+            <div class="social-content">
+              <ul class="list-inline">
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2flocalhost%3a1313%2fblogs%2fphysics%2fmodern_polarization_theory%2f">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://twitter.com/share?text=%e7%bb%8f%e5%85%b8%e6%9e%81%e5%8c%96%e7%90%86%e8%ae%ba&url=http%3a%2f%2flocalhost%3a1313%2fblogs%2fphysics%2fmodern_polarization_theory%2f">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://api.whatsapp.com/send?text=%e7%bb%8f%e5%85%b8%e6%9e%81%e5%8c%96%e7%90%86%e8%ae%ba: http%3a%2f%2flocalhost%3a1313%2fblogs%2fphysics%2fmodern_polarization_theory%2f">
+                    <i class="fab fa-whatsapp"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href='mailto:?subject=%e7%bb%8f%e5%85%b8%e6%9e%81%e5%8c%96%e7%90%86%e8%ae%ba&amp;body=Check%20out%20this%20site http%3a%2f%2flocalhost%3a1313%2fblogs%2fphysics%2fmodern_polarization_theory%2f'>
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </aside>
+          
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-9 p-4">
+        
+      </div>
+    </div>
+  </div>
+  <button class="p-2 px-3" onclick="topFunction()" id="topScroll">
+    <i class="fas fa-angle-up"></i>
+  </button>
+</section>
+
+
+<div class="progress">
+  <div id="scroll-progress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<Script src="/js/scrollProgressBar.js"></script>
+
+
+<script>
+  var topScroll = document.getElementById("topScroll");
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      topScroll.style.display = "block";
+    } else {
+      topScroll.style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
+  
+  let stickySideBarElem = document.getElementById("stickySideBar");
+  let stickyNavBar =  true ;
+  if(stickyNavBar) {
+    let headerElem = document.getElementById("profileHeader");
+    let headerHeight = headerElem.offsetHeight + 15;
+    stickySideBarElem.style.top = headerHeight + "px";
+  } else {
+    stickySideBarElem.style.top = "50px";
+  }
+</script>
+
+
+<script src="/js/readingTime.js"></script>
+
+
+
+  </div><footer>
+    
+ 
+ 
+<div class="container py-3" id="recent-posts">
+    
+    
+    <div class="h3 text-center text-secondary py-3">
+        Recent Posts
+    </div>
+    <div class="row justify-content-center">
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-header">
+                    <a href="/blogs/physics/modern_polarization_theory/">
+                        <img src="/images/mathjax.png" class="card-img-top" alt="经典极化理论">
+                    </a>
+                </div>
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/blogs/physics/modern_polarization_theory/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="经典极化理论">经典极化理论</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p><h2 id="sec:1.1">模型：电偶极子</h2>
+<p>物理的电偶极子主要是由两个相距为$d$，带电荷量相同但是符号相反的电荷($\pm q$)构成的，如图<a href="#fig:dipole">[fig:dipole]</a>{reference-type=&ldquo;ref&rdquo;
+reference=&ldquo;fig:dipole&rdquo;}所示：</p>
+<p><img src="/images/1.svg" alt="SVG 图形"></p>
+<p>电偶极子的电偶极矩定义为：
+$$\vec{P} = q \vec{d} \tag{1.1}$$
+其中，$\vec{d}$是两个电荷之间的距离向量，$q$是电荷量。</p>
+<h3 id="sec:1.1.1">电偶极子的近似电势</h3>
+<p>下面求电偶极子在远离电荷的地方的电势，如图<a href="#fig:dipole2">[fig:dipole2] …</a></p></p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">Dec 9, 2022</span>
+                    <a href="/blogs/physics/modern_polarization_theory/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-header">
+                    <a href="/blogs/windows-install-neo-vim/">
+                        <img src="/images/post.jpg" class="card-img-top" alt="Windows安装Neo-vim">
+                    </a>
+                </div>
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/blogs/windows-install-neo-vim/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="Windows安装Neo-vim">Windows安装Neo-vim</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p><hr>
+<blockquote>
+<p>参考网址链接：</p></blockquote>
+<ol>
+<li>Neovim 官网链接：<a href="https://neovim.io/">Home - Neovim</a></li>
+<li>安装说明：<a href="https://www.fournoas.com/posts/neovim-on-windows/">Windows 下使用 Neovim · 白汤四物</a></li>
+<li>安装说明链接1：<a href="https://blog.csdn.net/qq_74043043/article/details/142267682">零基础在Windows环境下配置neovim+Lazyvim_neovim windows-CSDN博客</a></li>
+<li>安装说明链接2：<a href="https://jdhao.github.io/2018/11/16/neovim_configuration_windows-zh/">Windows 10 系统下 Neovim 安装与配置 · jdhao&rsquo;s digital space</a></li>
+<li>安装说明链接3：<a href="https://blog.csdn.net/m0_68657832/article/details/140112354">neovim小白级安装及使用_neovim 安装-CSDN博客</a></li>
+<li>配置文件：<a href="https://martinlwx.github.io/zh-cn/config-neovim-from-scratch/">从零开始配置 Neovim(Nvim) - MartinLwx&rsquo;s Blog</a></li>
+</ol>
+<hr>
+<p>接下来主要采 …</p></p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">Apr 3, 2021</span>
+                    <a href="/blogs/windows-install-neo-vim/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<div class="text-center pt-2">
+    
+    <span class="px-1">
+        <a href="https://github.com/brans-t" aria-label="github">
+            <svg xmlns="http://www.w3.org/2000/svg" width="2.7em" height="2.7em" viewBox="0 0 1792 1792">
+                <path id="footer-socialNetworks-github-svg-path"
+                    d="M522 1352q-8 9-20-3-13-11-4-19 8-9 20 3 12 11 4 19zm-42-61q9 12 0 19-8 6-17-7t0-18q9-7 17 6zm-61-60q-5 7-13 2-10-5-7-12 3-5 13-2 10 5 7 12zm31 34q-6 7-16-3-9-11-2-16 6-6 16 3 9 11 2 16zm129 112q-4 12-19 6-17-4-13-15t19-7q16 5 13 16zm63 5q0 11-16 11-17 2-17-11 0-11 16-11 17-2 17 11zm58-10q2 10-14 14t-18-8 14-15q16-2 18 9zm964-956v960q0 119-84.5 203.5t-203.5 84.5h-224q-16 0-24.5-1t-19.5-5-16-14.5-5-27.5v-239q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-121-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-86-13.5q-44 113-7 204-79 85-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-40 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 103t.5 68q0 22-11 33.5t-22 13-33 1.5h-224q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z" />
+
+                <metadata>
+                    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+                        <rdf:Description about="https://iconscout.com/legal#licenses"
+                            dc:title="Github, Online, Project, Hosting, Square"
+                            dc:description="Github, Online, Project, Hosting, Square" dc:publisher="Iconscout"
+                            dc:date="2016-12-14" dc:format="image/svg+xml" dc:language="en">
+                            <dc:creator>
+                                <rdf:Bag>
+                                    <rdf:li>Font Awesome</rdf:li>
+                                </rdf:Bag>
+                            </dc:creator>
+                        </rdf:Description>
+                    </rdf:RDF>
+                </metadata>
+            </svg>
+        </a>
+    </span>
+    
+
+    
+
+    
+
+    
+
+    
+</div><div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+            
+                <div class="pb-2">
+                    <a href="http://localhost:1313/" title="Bran&#39;s BLOG">
+                        <img alt="Footer logo" src="/fav.png"
+                            height="40px" width="40px">
+                    </a>
+                </div>
+            
+            &copy; 2025  All rights reserved
+            <div class="text-secondary">
+                Made with
+                <span class="text-danger">
+                    &#10084;
+                </span>
+                and
+                <a href="https://github.com/gurusabarish/hugo-profile" target="_blank"
+                    title="Designed and developed by gurusabarish">
+                    Hugo Profile
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+
+</script>
+
+
+    <script src="/js/search.js"></script>
+
+
+
+
+
+<!-- MathJax -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js" integrity="sha384-M5jmNxKC9EVnuqeMwRHvFuYUE8Hhp0TgBruj/GZRkYtiMrCRgH7yvv5KY+Owi7TW" crossorigin="anonymous"></script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [['\\(','\\)']],
+        displayMath: [['$$','$$'], ['\[','\]']],
+        processEscapes: true,
+        processEnvironments: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        TeX: { equationNumbers: { autoNumber: "AMS" },
+             extensions: ["AMSmath.js", "AMSsymbols.js"] }
+      }
+    });
+</script>
+
+
+
+
+
+
+
+
+  <section id="search-content" class="py-2">
+    <div class="container" id="search-results"></div>
+  </section>
+</body>
+
+</html>
