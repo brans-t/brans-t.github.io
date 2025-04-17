@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Bran&#39;s BLOG</title>
-    <link>https://brans-t.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Bran&#39;s BLOG</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 17 Apr 2025 19:53:33 +0530</lastBuildDate>
-    <atom:link href="https://brans-t.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Physics</title>
-      <link>https://brans-t.github.io/tags/physics/</link>
+      <link>http://localhost:1313/tags/physics/</link>
       <pubDate>Thu, 17 Apr 2025 19:53:33 +0530</pubDate>
-      <guid>https://brans-t.github.io/tags/physics/</guid>
+      <guid>http://localhost:1313/tags/physics/</guid>
       <description></description>
     </item>
     <item>
       <title>Polarization</title>
-      <link>https://brans-t.github.io/tags/polarization/</link>
+      <link>http://localhost:1313/tags/polarization/</link>
       <pubDate>Thu, 17 Apr 2025 19:53:33 +0530</pubDate>
-      <guid>https://brans-t.github.io/tags/polarization/</guid>
+      <guid>http://localhost:1313/tags/polarization/</guid>
       <description></description>
     </item>
   </channel>
