@@ -2,17 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blogs/</loc>
-    <lastmod>2025-04-18T23:29:21+05:30</lastmod>
+    <loc>https://brans-t.github.io/</loc>
+    <lastmod>2025-06-25T18:35:46+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-04-18T23:29:21+05:30</lastmod>
+    <loc>https://brans-t.github.io/blogs/</loc>
+    <lastmod>2025-04-17T23:29:21+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/gallery/</loc>
-    <lastmod>2022-06-25T18:35:46+05:30</lastmod>
+    <loc>https://brans-t.github.io/tags/physics/</loc>
+    <lastmod>2025-04-17T19:53:33+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://brans-t.github.io/tags/polarization/</loc>
+    <lastmod>2025-04-17T19:53:33+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://brans-t.github.io/tags/</loc>
+    <lastmod>2025-04-17T19:53:33+05:30</lastmod>
+  </url><url>
+    <loc>https://brans-t.github.io/blogs/physics/modern_polarization_theory/modern_polarization_theory2/</loc>
+    <lastmod>2025-04-17T19:53:33+05:30</lastmod>
+  </url><url>
+    <loc>https://brans-t.github.io/blogs/physics/modern_polarization_theory/modern_polarization_theory1/</loc>
+    <lastmod>2025-04-17T14:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://brans-t.github.io/categories/</loc>
   </url>
 </urlset>
