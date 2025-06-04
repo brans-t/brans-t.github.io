@@ -1,29 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Boltzmann transport equation - Basic Model</title>
-    <url>/2025/05/11/BTE_1/</url>
-    <content><![CDATA[<h2 id="sec:1.1"># 非平衡分布函数</h2>
+    <title>Boltzmann transport equation - conductivity</title>
+    <url>/2025/05/11/BTE_2/</url>
+    <content><![CDATA[<h1 id="sec:1.1">电导率</h1>
 <figure>
-<img src="BTE_5.png" alt="BTE_5">
-<figcaption aria-hidden="true">BTE_5</figcaption>
+<img src="BTE_10.png" alt="BTE_10">
+<figcaption aria-hidden="true">BTE_10</figcaption>
 </figure>
 <figure>
-<img src="BTE_6.png" alt="BTE_6">
-<figcaption aria-hidden="true">BTE_6</figcaption>
+<img src="BTE_11.png" alt="BTE_11">
+<figcaption aria-hidden="true">BTE_11</figcaption>
 </figure>
 <figure>
-<img src="BTE_7.png" alt="BTE_7">
-<figcaption aria-hidden="true">BTE_7</figcaption>
-</figure>
-<h2 id="sec:1.2"># Boltzmann 输运方程推导</h2>
-<figure>
-<img src="BTE_8.png" alt="BTE_8">
-<figcaption aria-hidden="true">BTE_8</figcaption>
+<img src="BTE_12.png" alt="BTE_12">
+<figcaption aria-hidden="true">BTE_12</figcaption>
 </figure>
 <figure>
-<img src="BTE_9.png" alt="BTE_9">
-<figcaption aria-hidden="true">BTE_9</figcaption>
+<img src="BTE_13.png" alt="BTE_13">
+<figcaption aria-hidden="true">BTE_13</figcaption>
+</figure>
+<figure>
+<img src="BTE_14.png" alt="BTE_14">
+<figcaption aria-hidden="true">BTE_14</figcaption>
+</figure>
+<figure>
+<img src="BTE_15.png" alt="BTE_15">
+<figcaption aria-hidden="true">BTE_15</figcaption>
+</figure>
+<figure>
+<img src="BTE_16.png" alt="BTE_16">
+<figcaption aria-hidden="true">BTE_16</figcaption>
 </figure>
 ]]></content>
       <categories>
@@ -100,6 +107,39 @@
 <figure>
 <img src="BTE_26.png" alt="BTE_26">
 <figcaption aria-hidden="true">BTE_26</figcaption>
+</figure>
+]]></content>
+      <categories>
+        <category>Physics</category>
+      </categories>
+      <tags>
+        <tag>BTE</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Boltzmann transport equation - Basic Model</title>
+    <url>/2025/05/11/BTE_1/</url>
+    <content><![CDATA[<h2 id="sec:1.1"># 非平衡分布函数</h2>
+<figure>
+<img src="BTE_5.png" alt="BTE_5">
+<figcaption aria-hidden="true">BTE_5</figcaption>
+</figure>
+<figure>
+<img src="BTE_6.png" alt="BTE_6">
+<figcaption aria-hidden="true">BTE_6</figcaption>
+</figure>
+<figure>
+<img src="BTE_7.png" alt="BTE_7">
+<figcaption aria-hidden="true">BTE_7</figcaption>
+</figure>
+<h2 id="sec:1.2"># Boltzmann 输运方程推导</h2>
+<figure>
+<img src="BTE_8.png" alt="BTE_8">
+<figcaption aria-hidden="true">BTE_8</figcaption>
+</figure>
+<figure>
+<img src="BTE_9.png" alt="BTE_9">
+<figcaption aria-hidden="true">BTE_9</figcaption>
 </figure>
 ]]></content>
       <categories>
@@ -297,36 +337,29 @@
       </tags>
   </entry>
   <entry>
-    <title>Boltzmann transport equation - conductivity</title>
-    <url>/2025/05/11/BTE_2/</url>
-    <content><![CDATA[<h1 id="sec:1.1">电导率</h1>
+    <title>Spin Group Theory - Part 2</title>
+    <url>/2025/05/11/SG_2/</url>
+    <content><![CDATA[<p>Spin Group Theory : Spin Group</p>
 <figure>
-<img src="BTE_10.png" alt="BTE_10">
-<figcaption aria-hidden="true">BTE_10</figcaption>
+<img src="SG_21.png" alt="SG_21">
+<figcaption aria-hidden="true">SG_21</figcaption>
+</figure>
+<h1 id="sec:1.1">自旋群的定义</h1>
+<figure>
+<img src="SG_22.png" alt="SG_22">
+<figcaption aria-hidden="true">SG_22</figcaption>
 </figure>
 <figure>
-<img src="BTE_11.png" alt="BTE_11">
-<figcaption aria-hidden="true">BTE_11</figcaption>
+<img src="SG_23.png" alt="SG_23">
+<figcaption aria-hidden="true">SG_23</figcaption>
 </figure>
 <figure>
-<img src="BTE_12.png" alt="BTE_12">
-<figcaption aria-hidden="true">BTE_12</figcaption>
+<img src="SG_24.png" alt="SG_24">
+<figcaption aria-hidden="true">SG_24</figcaption>
 </figure>
 <figure>
-<img src="BTE_13.png" alt="BTE_13">
-<figcaption aria-hidden="true">BTE_13</figcaption>
-</figure>
-<figure>
-<img src="BTE_14.png" alt="BTE_14">
-<figcaption aria-hidden="true">BTE_14</figcaption>
-</figure>
-<figure>
-<img src="BTE_15.png" alt="BTE_15">
-<figcaption aria-hidden="true">BTE_15</figcaption>
-</figure>
-<figure>
-<img src="BTE_16.png" alt="BTE_16">
-<figcaption aria-hidden="true">BTE_16</figcaption>
+<img src="SG_25.png" alt="SG_25">
+<figcaption aria-hidden="true">SG_25</figcaption>
 </figure>
 ]]></content>
       <categories>
