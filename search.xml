@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Boltzmann transport equation - Relaxation time</title>
+    <url>/2025/05/11/BTE_3/</url>
+    <content><![CDATA[<h1 id="sec:1.1">弛豫时间近似</h1>
+<figure>
+<img src="BTE_17.png" alt="BTE_17">
+<figcaption aria-hidden="true">BTE_17</figcaption>
+</figure>
+<figure>
+<img src="BTE_18.png" alt="BTE_18">
+<figcaption aria-hidden="true">BTE_18</figcaption>
+</figure>
+<figure>
+<img src="BTE_19.png" alt="BTE_19">
+<figcaption aria-hidden="true">BTE_19</figcaption>
+</figure>
+<figure>
+<img src="BTE_20.png" alt="BTE_20">
+<figcaption aria-hidden="true">BTE_20</figcaption>
+</figure>
+<figure>
+<img src="BTE_21.png" alt="BTE_21">
+<figcaption aria-hidden="true">BTE_21</figcaption>
+</figure>
+<figure>
+<img src="BTE_22.png" alt="BTE_22">
+<figcaption aria-hidden="true">BTE_22</figcaption>
+</figure>
+<figure>
+<img src="BTE_23.png" alt="BTE_23">
+<figcaption aria-hidden="true">BTE_23</figcaption>
+</figure>
+<figure>
+<img src="BTE_24.png" alt="BTE_24">
+<figcaption aria-hidden="true">BTE_24</figcaption>
+</figure>
+]]></content>
+      <categories>
+        <category>Physics</category>
+      </categories>
+      <tags>
+        <tag>BTE</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Boltzmann transport equation - Basic Model</title>
     <url>/2025/05/11/BTE_1/</url>
     <content><![CDATA[<h2 id="sec:1.1"># 非平衡分布函数</h2>
@@ -74,29 +118,9 @@
       </tags>
   </entry>
   <entry>
-    <title>Boltzmann transport equation - Relaxation time</title>
-    <url>/2025/05/11/BTE_3/</url>
-    <content><![CDATA[<h1 id="sec:1.1">弛豫时间近似</h1>
-<figure>
-<img src="BTE_17.png" alt="BTE_17">
-<figcaption aria-hidden="true">BTE_17</figcaption>
-</figure>
-<figure>
-<img src="BTE_18.png" alt="BTE_18">
-<figcaption aria-hidden="true">BTE_18</figcaption>
-</figure>
-<figure>
-<img src="BTE_19.png" alt="BTE_19">
-<figcaption aria-hidden="true">BTE_19</figcaption>
-</figure>
-<figure>
-<img src="BTE_20.png" alt="BTE_20">
-<figcaption aria-hidden="true">BTE_20</figcaption>
-</figure>
-<figure>
-<img src="BTE_21.png" alt="BTE_21">
-<figcaption aria-hidden="true">BTE_21</figcaption>
-</figure>
+    <title>Boltzmann transport equation - Appendix</title>
+    <url>/2025/05/11/BTE_dix/</url>
+    <content><![CDATA[<h1 id="sec:1.1">微分散射截面</h1>
 <figure>
 <img src="BTE_22.png" alt="BTE_22">
 <figcaption aria-hidden="true">BTE_22</figcaption>
@@ -109,12 +133,98 @@
 <img src="BTE_24.png" alt="BTE_24">
 <figcaption aria-hidden="true">BTE_24</figcaption>
 </figure>
+<figure>
+<img src="BTE_25.png" alt="BTE_25">
+<figcaption aria-hidden="true">BTE_25</figcaption>
+</figure>
+<figure>
+<img src="BTE_26.png" alt="BTE_26">
+<figcaption aria-hidden="true">BTE_26</figcaption>
+</figure>
 ]]></content>
       <categories>
         <category>Physics</category>
       </categories>
       <tags>
         <tag>BTE</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Spin Group Theory - Part 1</title>
+    <url>/2025/05/11/SG_1/</url>
+    <content><![CDATA[<p>Spin Group Theory : Basic Model</p>
+<figure>
+<img src="SG_6.png" alt="SG_6">
+<figcaption aria-hidden="true">SG_6</figcaption>
+</figure>
+<h1 id="sec:1.1">自旋排列与自旋对称群</h1>
+<figure>
+<img src="SG_7.png" alt="SG_7">
+<figcaption aria-hidden="true">SG_7</figcaption>
+</figure>
+<figure>
+<img src="SG_8.png" alt="SG_8">
+<figcaption aria-hidden="true">SG_8</figcaption>
+</figure>
+<figure>
+<img src="SG_9.png" alt="SG_9">
+<figcaption aria-hidden="true">SG_9</figcaption>
+</figure>
+<figure>
+<img src="SG_10.png" alt="SG_10">
+<figcaption aria-hidden="true">SG_10</figcaption>
+</figure>
+<h1 id="sec:1.2">自旋群的结构</h1>
+<figure>
+<img src="SG_11.png" alt="SG_11">
+<figcaption aria-hidden="true">SG_11</figcaption>
+</figure>
+<figure>
+<img src="SG_12.png" alt="SG_12">
+<figcaption aria-hidden="true">SG_12</figcaption>
+</figure>
+<figure>
+<img src="SG_13.png" alt="SG_13">
+<figcaption aria-hidden="true">SG_13</figcaption>
+</figure>
+<figure>
+<img src="SG_14.png" alt="SG_14">
+<figcaption aria-hidden="true">SG_14</figcaption>
+</figure>
+<figure>
+<img src="SG_15.png" alt="SG_15">
+<figcaption aria-hidden="true">SG_15</figcaption>
+</figure>
+<h1 id="sec:1.3">非平庸自旋群的推导与分类</h1>
+<figure>
+<img src="SG_16.png" alt="SG_16">
+<figcaption aria-hidden="true">SG_16</figcaption>
+</figure>
+<h2 id="sec:1.3.1">自旋点群</h2>
+<figure>
+<img src="SG_17.png" alt="SG_17">
+<figcaption aria-hidden="true">SG_17</figcaption>
+</figure>
+<h2 id="sec:1.3.2">自旋平移群</h2>
+<figure>
+<img src="SG_18.png" alt="SG_18">
+<figcaption aria-hidden="true">SG_18</figcaption>
+</figure>
+<h2 id="sec:1.3.3">自旋空间群</h2>
+<figure>
+<img src="SG_19.png" alt="SG_19">
+<figcaption aria-hidden="true">SG_19</figcaption>
+</figure>
+<figure>
+<img src="SG_20.png" alt="SG_20">
+<figcaption aria-hidden="true">SG_20</figcaption>
+</figure>
+]]></content>
+      <categories>
+        <category>Physics</category>
+      </categories>
+      <tags>
+        <tag>Spin_Group</tag>
       </tags>
   </entry>
   <entry>
@@ -227,149 +337,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Spin Group Theory - Part 1</title>
-    <url>/2025/05/11/SG_1/</url>
-    <content><![CDATA[<p>Spin Group Theory : Basic Model</p>
-<figure>
-<img src="SG_6.png" alt="SG_6">
-<figcaption aria-hidden="true">SG_6</figcaption>
-</figure>
-<h1 id="sec:1.1">自旋排列与自旋对称群</h1>
-<figure>
-<img src="SG_7.png" alt="SG_7">
-<figcaption aria-hidden="true">SG_7</figcaption>
-</figure>
-<figure>
-<img src="SG_8.png" alt="SG_8">
-<figcaption aria-hidden="true">SG_8</figcaption>
-</figure>
-<figure>
-<img src="SG_9.png" alt="SG_9">
-<figcaption aria-hidden="true">SG_9</figcaption>
-</figure>
-<figure>
-<img src="SG_10.png" alt="SG_10">
-<figcaption aria-hidden="true">SG_10</figcaption>
-</figure>
-<h1 id="sec:1.2">自旋群的结构</h1>
-<figure>
-<img src="SG_11.png" alt="SG_11">
-<figcaption aria-hidden="true">SG_11</figcaption>
-</figure>
-<figure>
-<img src="SG_12.png" alt="SG_12">
-<figcaption aria-hidden="true">SG_12</figcaption>
-</figure>
-<figure>
-<img src="SG_13.png" alt="SG_13">
-<figcaption aria-hidden="true">SG_13</figcaption>
-</figure>
-<figure>
-<img src="SG_14.png" alt="SG_14">
-<figcaption aria-hidden="true">SG_14</figcaption>
-</figure>
-<figure>
-<img src="SG_15.png" alt="SG_15">
-<figcaption aria-hidden="true">SG_15</figcaption>
-</figure>
-<h1 id="sec:1.3">非平庸自旋群的推导与分类</h1>
-<figure>
-<img src="SG_16.png" alt="SG_16">
-<figcaption aria-hidden="true">SG_16</figcaption>
-</figure>
-<h2 id="sec:1.3.1">自旋点群</h2>
-<figure>
-<img src="SG_17.png" alt="SG_17">
-<figcaption aria-hidden="true">SG_17</figcaption>
-</figure>
-<h2 id="sec:1.3.2">自旋平移群</h2>
-<figure>
-<img src="SG_18.png" alt="SG_18">
-<figcaption aria-hidden="true">SG_18</figcaption>
-</figure>
-<h2 id="sec:1.3.3">自旋空间群</h2>
-<figure>
-<img src="SG_19.png" alt="SG_19">
-<figcaption aria-hidden="true">SG_19</figcaption>
-</figure>
-<figure>
-<img src="SG_20.png" alt="SG_20">
-<figcaption aria-hidden="true">SG_20</figcaption>
-</figure>
-]]></content>
-      <categories>
-        <category>Physics</category>
-      </categories>
-      <tags>
-        <tag>Spin_Group</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Boltzmann transport equation - Appendix</title>
-    <url>/2025/05/11/BTE_dix/</url>
-    <content><![CDATA[<h1 id="sec:1.1">微分散射截面</h1>
-<figure>
-<img src="BTE_22.png" alt="BTE_22">
-<figcaption aria-hidden="true">BTE_22</figcaption>
-</figure>
-<figure>
-<img src="BTE_23.png" alt="BTE_23">
-<figcaption aria-hidden="true">BTE_23</figcaption>
-</figure>
-<figure>
-<img src="BTE_24.png" alt="BTE_24">
-<figcaption aria-hidden="true">BTE_24</figcaption>
-</figure>
-<figure>
-<img src="BTE_25.png" alt="BTE_25">
-<figcaption aria-hidden="true">BTE_25</figcaption>
-</figure>
-<figure>
-<img src="BTE_26.png" alt="BTE_26">
-<figcaption aria-hidden="true">BTE_26</figcaption>
-</figure>
-]]></content>
-      <categories>
-        <category>Physics</category>
-      </categories>
-      <tags>
-        <tag>BTE</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Spin Group Theory - Part 2</title>
-    <url>/2025/05/11/SG_2/</url>
-    <content><![CDATA[<p>Spin Group Theory : Spin Group</p>
-<figure>
-<img src="SG_21.png" alt="SG_21">
-<figcaption aria-hidden="true">SG_21</figcaption>
-</figure>
-<h1 id="sec:1.1">自旋群的定义</h1>
-<figure>
-<img src="SG_22.png" alt="SG_22">
-<figcaption aria-hidden="true">SG_22</figcaption>
-</figure>
-<figure>
-<img src="SG_23.png" alt="SG_23">
-<figcaption aria-hidden="true">SG_23</figcaption>
-</figure>
-<figure>
-<img src="SG_24.png" alt="SG_24">
-<figcaption aria-hidden="true">SG_24</figcaption>
-</figure>
-<figure>
-<img src="SG_25.png" alt="SG_25">
-<figcaption aria-hidden="true">SG_25</figcaption>
-</figure>
-]]></content>
-      <categories>
-        <category>Physics</category>
-      </categories>
-      <tags>
-        <tag>Spin_Group</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Spin Group Theory - Appendix</title>
     <url>/2025/05/11/SG_dix/</url>
     <content><![CDATA[<p>Spin Group Theory : Math proof</p>
@@ -434,6 +401,39 @@
 </figure>
 <h1 id="sec:1.4">主要参考文献：</h1>
 <p>https://journals.aps.org/prx/abstract/10.1103/PhysRevX.12.021016</p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+      </categories>
+      <tags>
+        <tag>Spin_Group</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Spin Group Theory - Part 2</title>
+    <url>/2025/05/11/SG_2/</url>
+    <content><![CDATA[<p>Spin Group Theory : Spin Group</p>
+<figure>
+<img src="SG_21.png" alt="SG_21">
+<figcaption aria-hidden="true">SG_21</figcaption>
+</figure>
+<h1 id="sec:1.1">自旋群的定义</h1>
+<figure>
+<img src="SG_22.png" alt="SG_22">
+<figcaption aria-hidden="true">SG_22</figcaption>
+</figure>
+<figure>
+<img src="SG_23.png" alt="SG_23">
+<figcaption aria-hidden="true">SG_23</figcaption>
+</figure>
+<figure>
+<img src="SG_24.png" alt="SG_24">
+<figcaption aria-hidden="true">SG_24</figcaption>
+</figure>
+<figure>
+<img src="SG_25.png" alt="SG_25">
+<figcaption aria-hidden="true">SG_25</figcaption>
+</figure>
 ]]></content>
       <categories>
         <category>Physics</category>
