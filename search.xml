@@ -1,46 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Boltzmann transport equation - conductivity</title>
-    <url>/2025/05/11/BTE_2/</url>
-    <content><![CDATA[<h1 id="sec:1.1">电导率</h1>
-<figure>
-<img src="BTE_10.png" alt="BTE_10">
-<figcaption aria-hidden="true">BTE_10</figcaption>
-</figure>
-<figure>
-<img src="BTE_11.png" alt="BTE_11">
-<figcaption aria-hidden="true">BTE_11</figcaption>
-</figure>
-<figure>
-<img src="BTE_12.png" alt="BTE_12">
-<figcaption aria-hidden="true">BTE_12</figcaption>
-</figure>
-<figure>
-<img src="BTE_13.png" alt="BTE_13">
-<figcaption aria-hidden="true">BTE_13</figcaption>
-</figure>
-<figure>
-<img src="BTE_14.png" alt="BTE_14">
-<figcaption aria-hidden="true">BTE_14</figcaption>
-</figure>
-<figure>
-<img src="BTE_15.png" alt="BTE_15">
-<figcaption aria-hidden="true">BTE_15</figcaption>
-</figure>
-<figure>
-<img src="BTE_16.png" alt="BTE_16">
-<figcaption aria-hidden="true">BTE_16</figcaption>
-</figure>
-]]></content>
-      <categories>
-        <category>Physics</category>
-      </categories>
-      <tags>
-        <tag>BTE</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Boltzmann transport equation - Basic Model</title>
     <url>/2025/05/11/BTE_1/</url>
     <content><![CDATA[<h2 id="sec:1.1"># 非平衡分布函数</h2>
@@ -118,6 +78,46 @@
       </tags>
   </entry>
   <entry>
+    <title>Boltzmann transport equation - conductivity</title>
+    <url>/2025/05/11/BTE_2/</url>
+    <content><![CDATA[<h1 id="sec:1.1">电导率</h1>
+<figure>
+<img src="BTE_10.png" alt="BTE_10">
+<figcaption aria-hidden="true">BTE_10</figcaption>
+</figure>
+<figure>
+<img src="BTE_11.png" alt="BTE_11">
+<figcaption aria-hidden="true">BTE_11</figcaption>
+</figure>
+<figure>
+<img src="BTE_12.png" alt="BTE_12">
+<figcaption aria-hidden="true">BTE_12</figcaption>
+</figure>
+<figure>
+<img src="BTE_13.png" alt="BTE_13">
+<figcaption aria-hidden="true">BTE_13</figcaption>
+</figure>
+<figure>
+<img src="BTE_14.png" alt="BTE_14">
+<figcaption aria-hidden="true">BTE_14</figcaption>
+</figure>
+<figure>
+<img src="BTE_15.png" alt="BTE_15">
+<figcaption aria-hidden="true">BTE_15</figcaption>
+</figure>
+<figure>
+<img src="BTE_16.png" alt="BTE_16">
+<figcaption aria-hidden="true">BTE_16</figcaption>
+</figure>
+]]></content>
+      <categories>
+        <category>Physics</category>
+      </categories>
+      <tags>
+        <tag>BTE</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Boltzmann transport equation - Appendix</title>
     <url>/2025/05/11/BTE_dix/</url>
     <content><![CDATA[<h1 id="sec:1.1">微分散射截面</h1>
@@ -150,51 +150,116 @@
       </tags>
   </entry>
   <entry>
-    <title>Polarization Theory - Part 1</title>
-    <url>/2025/05/11/PT_1/</url>
-    <content><![CDATA[<p>Polarization Theory : Basic Model</p>
-<h1 id="sec:1.1">模型：电偶极子</h1>
+    <title>Drude Model - Part 1</title>
+    <url>/2025/05/11/DrudeM_1/</url>
+    <content><![CDATA[<p>Drude Model : Basic Model</p>
+<h1 id="sec:1.1">Brude 模型的基本假设</h1>
 <figure>
-<img src="PT_4.png" alt="PT_4">
-<figcaption aria-hidden="true">PT_4</figcaption>
+<img src="DurdeM_5.png" alt="DurdeM_5">
+<figcaption aria-hidden="true">DurdeM_5</figcaption>
 </figure>
-<h1 id="sec:1.1.1">电偶极子的近似电势</h1>
+<h1 id="sec:1.2">恒定电场下Drude模型的电导率</h1>
 <figure>
-<img src="PT_5.png" alt="PT_5">
-<figcaption aria-hidden="true">PT_5</figcaption>
-</figure>
-<figure>
-<img src="PT_6.png" alt="PT_6">
-<figcaption aria-hidden="true">PT_6</figcaption>
-</figure>
-<h1 id="sec:1.1.2">任意局域电荷分布的近似电势</h1>
-<figure>
-<img src="PT_7.png" alt="PT_7">
-<figcaption aria-hidden="true">PT_7</figcaption>
+<img src="DurdeM_6.png" alt="DurdeM_6">
+<figcaption aria-hidden="true">DurdeM_6</figcaption>
 </figure>
 <figure>
-<img src="PT_8.png" alt="PT_8">
-<figcaption aria-hidden="true">PT_8</figcaption>
+<img src="DurdeM_7.png" alt="DurdeM_7">
+<figcaption aria-hidden="true">DurdeM_7</figcaption>
+</figure>
+<h1 id="sec:1.3">随时间变化的电场下的Drude模型</h1>
+<figure>
+<img src="DurdeM_8.png" alt="DurdeM_8">
+<figcaption aria-hidden="true">DurdeM_8</figcaption>
 </figure>
 <figure>
-<img src="PT_9.png" alt="PT_9">
-<figcaption aria-hidden="true">PT_9</figcaption>
+<img src="DurdeM_9.png" alt="DurdeM_9">
+<figcaption aria-hidden="true">DurdeM_9</figcaption>
 </figure>
 <figure>
-<img src="PT_10.png" alt="PT_10">
-<figcaption aria-hidden="true">PT_10</figcaption>
+<img src="DurdeM_10.png" alt="DurdeM_10">
+<figcaption aria-hidden="true">DurdeM_10</figcaption>
 </figure>
-<h1 id="sec:1.1.3">电偶极子的电场</h1>
+<h1 id="sec:1.3.1">交变电场下的Drude模型的电导率</h1>
 <figure>
-<img src="PT_11.png" alt="PT_11">
-<figcaption aria-hidden="true">PT_11</figcaption>
+<img src="DurdeM_11.png" alt="DurdeM_11">
+<figcaption aria-hidden="true">DurdeM_11</figcaption>
+</figure>
+<figure>
+<img src="DurdeM_12.png" alt="DurdeM_12">
+<figcaption aria-hidden="true">DurdeM_12</figcaption>
 </figure>
 ]]></content>
       <categories>
         <category>Physics</category>
       </categories>
       <tags>
-        <tag>PT</tag>
+        <tag>DrudeM</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Drude Model - Part 2</title>
+    <url>/2025/05/11/DrudeM_2/</url>
+    <content><![CDATA[<p>Drude Model : 电导/热导</p>
+<h1 id="sec:1.1">平均自由时间的估计</h1>
+<figure>
+<img src="DurdeM_13.png" alt="DurdeM_13">
+<figcaption aria-hidden="true">DurdeM_13</figcaption>
+</figure>
+<figure>
+<img src="DurdeM_14.png" alt="DurdeM_14">
+<figcaption aria-hidden="true">DurdeM_14</figcaption>
+</figure>
+<h1 id="sec:1.2">Drude模型热导率</h1>
+<figure>
+<img src="DurdeM_15.png" alt="DurdeM_15">
+<figcaption aria-hidden="true">DurdeM_15</figcaption>
+</figure>
+<h1 id="sec:1.3">Drude模型的局限</h1>
+<figure>
+<img src="DurdeM_16.png" alt="DurdeM_16">
+<figcaption aria-hidden="true">DurdeM_16</figcaption>
+</figure>
+]]></content>
+      <categories>
+        <category>Physics</category>
+      </categories>
+      <tags>
+        <tag>DrudeM</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Drude Model - Part 3</title>
+    <url>/2025/05/11/DrudeM_3/</url>
+    <content><![CDATA[<p>Drude Model : 霍尔效应</p>
+<figure>
+<img src="DurdeM_17.png" alt="DurdeM_17">
+<figcaption aria-hidden="true">DurdeM_17</figcaption>
+</figure>
+<h1 id="sec:1.1">Drude Model 下的霍尔效应</h1>
+<figure>
+<img src="DurdeM_18.png" alt="DurdeM_18">
+<figcaption aria-hidden="true">DurdeM_18</figcaption>
+</figure>
+<figure>
+<img src="DurdeM_19.png" alt="DurdeM_19">
+<figcaption aria-hidden="true">DurdeM_19</figcaption>
+</figure>
+<h1 id="sec:1.2">Drude Model 小结</h1>
+<figure>
+<img src="DurdeM_20.png" alt="DurdeM_20">
+<figcaption aria-hidden="true">DurdeM_20</figcaption>
+</figure>
+<figure>
+<img src="DurdeM_21.png" alt="DurdeM_21">
+<figcaption aria-hidden="true">DurdeM_21</figcaption>
+</figure>
+]]></content>
+      <categories>
+        <category>Physics</category>
+      </categories>
+      <tags>
+        <tag>DrudeM</tag>
       </tags>
   </entry>
   <entry>
@@ -246,81 +311,51 @@
       </tags>
   </entry>
   <entry>
-    <title>Spin Group Theory - Part 1</title>
-    <url>/2025/05/11/SG_1/</url>
-    <content><![CDATA[<p>Spin Group Theory : Basic Model</p>
+    <title>Polarization Theory - Part 1</title>
+    <url>/2025/05/11/PT_1/</url>
+    <content><![CDATA[<p>Polarization Theory : Basic Model</p>
+<h1 id="sec:1.1">模型：电偶极子</h1>
 <figure>
-<img src="SG_6.png" alt="SG_6">
-<figcaption aria-hidden="true">SG_6</figcaption>
+<img src="PT_4.png" alt="PT_4">
+<figcaption aria-hidden="true">PT_4</figcaption>
 </figure>
-<h1 id="sec:1.1">自旋排列与自旋对称群</h1>
+<h1 id="sec:1.1.1">电偶极子的近似电势</h1>
 <figure>
-<img src="SG_7.png" alt="SG_7">
-<figcaption aria-hidden="true">SG_7</figcaption>
-</figure>
-<figure>
-<img src="SG_8.png" alt="SG_8">
-<figcaption aria-hidden="true">SG_8</figcaption>
+<img src="PT_5.png" alt="PT_5">
+<figcaption aria-hidden="true">PT_5</figcaption>
 </figure>
 <figure>
-<img src="SG_9.png" alt="SG_9">
-<figcaption aria-hidden="true">SG_9</figcaption>
+<img src="PT_6.png" alt="PT_6">
+<figcaption aria-hidden="true">PT_6</figcaption>
+</figure>
+<h1 id="sec:1.1.2">任意局域电荷分布的近似电势</h1>
+<figure>
+<img src="PT_7.png" alt="PT_7">
+<figcaption aria-hidden="true">PT_7</figcaption>
 </figure>
 <figure>
-<img src="SG_10.png" alt="SG_10">
-<figcaption aria-hidden="true">SG_10</figcaption>
-</figure>
-<h1 id="sec:1.2">自旋群的结构</h1>
-<figure>
-<img src="SG_11.png" alt="SG_11">
-<figcaption aria-hidden="true">SG_11</figcaption>
+<img src="PT_8.png" alt="PT_8">
+<figcaption aria-hidden="true">PT_8</figcaption>
 </figure>
 <figure>
-<img src="SG_12.png" alt="SG_12">
-<figcaption aria-hidden="true">SG_12</figcaption>
+<img src="PT_9.png" alt="PT_9">
+<figcaption aria-hidden="true">PT_9</figcaption>
 </figure>
 <figure>
-<img src="SG_13.png" alt="SG_13">
-<figcaption aria-hidden="true">SG_13</figcaption>
+<img src="PT_10.png" alt="PT_10">
+<figcaption aria-hidden="true">PT_10</figcaption>
 </figure>
+<h1 id="sec:1.1.3">电偶极子的电场</h1>
 <figure>
-<img src="SG_14.png" alt="SG_14">
-<figcaption aria-hidden="true">SG_14</figcaption>
-</figure>
-<figure>
-<img src="SG_15.png" alt="SG_15">
-<figcaption aria-hidden="true">SG_15</figcaption>
-</figure>
-<h1 id="sec:1.3">非平庸自旋群的推导与分类</h1>
-<figure>
-<img src="SG_16.png" alt="SG_16">
-<figcaption aria-hidden="true">SG_16</figcaption>
-</figure>
-<h2 id="sec:1.3.1">自旋点群</h2>
-<figure>
-<img src="SG_17.png" alt="SG_17">
-<figcaption aria-hidden="true">SG_17</figcaption>
-</figure>
-<h2 id="sec:1.3.2">自旋平移群</h2>
-<figure>
-<img src="SG_18.png" alt="SG_18">
-<figcaption aria-hidden="true">SG_18</figcaption>
-</figure>
-<h2 id="sec:1.3.3">自旋空间群</h2>
-<figure>
-<img src="SG_19.png" alt="SG_19">
-<figcaption aria-hidden="true">SG_19</figcaption>
-</figure>
-<figure>
-<img src="SG_20.png" alt="SG_20">
-<figcaption aria-hidden="true">SG_20</figcaption>
+<img src="PT_11.png" alt="PT_11">
+<figcaption aria-hidden="true">PT_11</figcaption>
 </figure>
 ]]></content>
       <categories>
         <category>Physics</category>
       </categories>
       <tags>
-        <tag>Spin_Group</tag>
+        <tag>PT</tag>
       </tags>
   </entry>
   <entry>
@@ -421,6 +456,84 @@
 </figure>
 <h1 id="sec:1.4">主要参考文献：</h1>
 <p>https://journals.aps.org/prx/abstract/10.1103/PhysRevX.12.021016</p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+      </categories>
+      <tags>
+        <tag>Spin_Group</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Spin Group Theory - Part 1</title>
+    <url>/2025/05/11/SG_1/</url>
+    <content><![CDATA[<p>Spin Group Theory : Basic Model</p>
+<figure>
+<img src="SG_6.png" alt="SG_6">
+<figcaption aria-hidden="true">SG_6</figcaption>
+</figure>
+<h1 id="sec:1.1">自旋排列与自旋对称群</h1>
+<figure>
+<img src="SG_7.png" alt="SG_7">
+<figcaption aria-hidden="true">SG_7</figcaption>
+</figure>
+<figure>
+<img src="SG_8.png" alt="SG_8">
+<figcaption aria-hidden="true">SG_8</figcaption>
+</figure>
+<figure>
+<img src="SG_9.png" alt="SG_9">
+<figcaption aria-hidden="true">SG_9</figcaption>
+</figure>
+<figure>
+<img src="SG_10.png" alt="SG_10">
+<figcaption aria-hidden="true">SG_10</figcaption>
+</figure>
+<h1 id="sec:1.2">自旋群的结构</h1>
+<figure>
+<img src="SG_11.png" alt="SG_11">
+<figcaption aria-hidden="true">SG_11</figcaption>
+</figure>
+<figure>
+<img src="SG_12.png" alt="SG_12">
+<figcaption aria-hidden="true">SG_12</figcaption>
+</figure>
+<figure>
+<img src="SG_13.png" alt="SG_13">
+<figcaption aria-hidden="true">SG_13</figcaption>
+</figure>
+<figure>
+<img src="SG_14.png" alt="SG_14">
+<figcaption aria-hidden="true">SG_14</figcaption>
+</figure>
+<figure>
+<img src="SG_15.png" alt="SG_15">
+<figcaption aria-hidden="true">SG_15</figcaption>
+</figure>
+<h1 id="sec:1.3">非平庸自旋群的推导与分类</h1>
+<figure>
+<img src="SG_16.png" alt="SG_16">
+<figcaption aria-hidden="true">SG_16</figcaption>
+</figure>
+<h2 id="sec:1.3.1">自旋点群</h2>
+<figure>
+<img src="SG_17.png" alt="SG_17">
+<figcaption aria-hidden="true">SG_17</figcaption>
+</figure>
+<h2 id="sec:1.3.2">自旋平移群</h2>
+<figure>
+<img src="SG_18.png" alt="SG_18">
+<figcaption aria-hidden="true">SG_18</figcaption>
+</figure>
+<h2 id="sec:1.3.3">自旋空间群</h2>
+<figure>
+<img src="SG_19.png" alt="SG_19">
+<figcaption aria-hidden="true">SG_19</figcaption>
+</figure>
+<figure>
+<img src="SG_20.png" alt="SG_20">
+<figcaption aria-hidden="true">SG_20</figcaption>
+</figure>
 ]]></content>
       <categories>
         <category>Physics</category>
