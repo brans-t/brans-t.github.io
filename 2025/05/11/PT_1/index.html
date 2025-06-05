@@ -19,33 +19,37 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"brans-t.github.io","root":"/","images":"/images","scheme":"Mist","darkmode":false,"version":"8.23.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js" defer></script>
 
-    <meta name="description" content="# 非平衡分布函数">
+    <meta name="description" content="Polarization Theory : Basic Model">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Boltzmann transport equation - Basic Model">
-<meta property="og:url" content="https://brans-t.github.io/2025/05/11/BTE_1/index.html">
+<meta property="og:title" content="Polarization Theory - Part 1">
+<meta property="og:url" content="https://brans-t.github.io/2025/05/11/PT_1/index.html">
 <meta property="og:site_name" content="Brain&#39;s Blog">
-<meta property="og:description" content="# 非平衡分布函数">
+<meta property="og:description" content="Polarization Theory : Basic Model">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://brans-t.github.io/2025/05/11/BTE_1/BTE_5.png">
-<meta property="og:image" content="https://brans-t.github.io/2025/05/11/BTE_1/BTE_6.png">
-<meta property="og:image" content="https://brans-t.github.io/2025/05/11/BTE_1/BTE_7.png">
-<meta property="og:image" content="https://brans-t.github.io/2025/05/11/BTE_1/BTE_8.png">
-<meta property="og:image" content="https://brans-t.github.io/2025/05/11/BTE_1/BTE_9.png">
+<meta property="og:image" content="https://brans-t.github.io/2025/05/11/PT_1/SG_6.png">
+<meta property="og:image" content="https://brans-t.github.io/2025/05/11/PT_1/PT_4.png">
+<meta property="og:image" content="https://brans-t.github.io/2025/05/11/PT_1/PT_5.png">
+<meta property="og:image" content="https://brans-t.github.io/2025/05/11/PT_1/PT_6.png">
+<meta property="og:image" content="https://brans-t.github.io/2025/05/11/PT_1/PT_7.png">
+<meta property="og:image" content="https://brans-t.github.io/2025/05/11/PT_1/PT_8.png">
+<meta property="og:image" content="https://brans-t.github.io/2025/05/11/PT_1/PT_9.png">
+<meta property="og:image" content="https://brans-t.github.io/2025/05/11/PT_1/PT_10.png">
+<meta property="og:image" content="https://brans-t.github.io/2025/05/11/PT_1/PT_11.png">
 <meta property="article:published_time" content="2025-05-11T10:37:22.000Z">
-<meta property="article:modified_time" content="2025-06-04T19:09:15.580Z">
+<meta property="article:modified_time" content="2025-06-05T04:32:35.573Z">
 <meta property="article:author" content="Brans-t">
-<meta property="article:tag" content="BTE">
+<meta property="article:tag" content="PT">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://brans-t.github.io/2025/05/11/BTE_1/BTE_5.png">
+<meta name="twitter:image" content="https://brans-t.github.io/2025/05/11/PT_1/SG_6.png">
 
 
-<link rel="canonical" href="https://brans-t.github.io/2025/05/11/BTE_1/">
+<link rel="canonical" href="https://brans-t.github.io/2025/05/11/PT_1/">
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://brans-t.github.io/2025/05/11/BTE_1/","path":"2025/05/11/BTE_1/","title":"Boltzmann transport equation - Basic Model"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://brans-t.github.io/2025/05/11/PT_1/","path":"2025/05/11/PT_1/","title":"Polarization Theory - Part 1"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Boltzmann transport equation - Basic Model | Brain's Blog</title>
+<title>Polarization Theory - Part 1 | Brain's Blog</title>
   
 
 
@@ -315,7 +319,7 @@ mjx-container[display="true"] + br {
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#sec:1.1"><span class="nav-number">1.</span> <span class="nav-text"># 非平衡分布函数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#sec:1.2"><span class="nav-number">2.</span> <span class="nav-text"># Boltzmann 输运方程推导</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#sec:1.1"><span class="nav-number">1.</span> <span class="nav-text">模型：电偶极子</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#sec:1.1.1"><span class="nav-number">2.</span> <span class="nav-text">电偶极子的近似电势</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#sec:1.1.2"><span class="nav-number">3.</span> <span class="nav-text">任意局域电荷分布的近似电势</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#sec:1.1.3"><span class="nav-number">4.</span> <span class="nav-text">电偶极子的电场</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -397,7 +401,7 @@ mjx-container[display="true"] + br {
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
-    <link itemprop="mainEntityOfPage" href="https://brans-t.github.io/2025/05/11/BTE_1/">
+    <link itemprop="mainEntityOfPage" href="https://brans-t.github.io/2025/05/11/PT_1/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/me.png">
@@ -410,12 +414,12 @@ mjx-container[display="true"] + br {
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="Boltzmann transport equation - Basic Model | Brain's Blog">
+      <meta itemprop="name" content="Polarization Theory - Part 1 | Brain's Blog">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Boltzmann transport equation - Basic Model
+          Polarization Theory - Part 1
         </h1>
 
         <div class="post-meta-container">
@@ -433,7 +437,7 @@ mjx-container[display="true"] + br {
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2025-06-05 03:09:15" itemprop="dateModified" datetime="2025-06-05T03:09:15+08:00">2025-06-05</time>
+      <time title="Modified: 2025-06-05 12:32:35" itemprop="dateModified" datetime="2025-06-05T12:32:35+08:00">2025-06-05</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -460,7 +464,7 @@ mjx-container[display="true"] + br {
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span>74</span>
+      <span>148</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
@@ -477,27 +481,46 @@ mjx-container[display="true"] + br {
     
     
     
-    <div class="post-body" itemprop="articleBody"><h2 id="sec:1.1"># 非平衡分布函数</h2>
+    <div class="post-body" itemprop="articleBody"><p>Polarization Theory : Basic Model</p>
 <figure>
-<img src="BTE_5.png" alt="BTE_5">
-<figcaption aria-hidden="true">BTE_5</figcaption>
+<img src="SG_6.png" alt="SG_6">
+<figcaption aria-hidden="true">SG_6</figcaption>
+</figure>
+<h1 id="sec:1.1">模型：电偶极子</h1>
+<figure>
+<img src="PT_4.png" alt="PT_4">
+<figcaption aria-hidden="true">PT_4</figcaption>
+</figure>
+<h1 id="sec:1.1.1">电偶极子的近似电势</h1>
+<figure>
+<img src="PT_5.png" alt="PT_5">
+<figcaption aria-hidden="true">PT_5</figcaption>
 </figure>
 <figure>
-<img src="BTE_6.png" alt="BTE_6">
-<figcaption aria-hidden="true">BTE_6</figcaption>
+<img src="PT_6.png" alt="PT_6">
+<figcaption aria-hidden="true">PT_6</figcaption>
+</figure>
+<h1 id="sec:1.1.2">任意局域电荷分布的近似电势</h1>
+<figure>
+<img src="PT_7.png" alt="PT_7">
+<figcaption aria-hidden="true">PT_7</figcaption>
 </figure>
 <figure>
-<img src="BTE_7.png" alt="BTE_7">
-<figcaption aria-hidden="true">BTE_7</figcaption>
-</figure>
-<h2 id="sec:1.2"># Boltzmann 输运方程推导</h2>
-<figure>
-<img src="BTE_8.png" alt="BTE_8">
-<figcaption aria-hidden="true">BTE_8</figcaption>
+<img src="PT_8.png" alt="PT_8">
+<figcaption aria-hidden="true">PT_8</figcaption>
 </figure>
 <figure>
-<img src="BTE_9.png" alt="BTE_9">
-<figcaption aria-hidden="true">BTE_9</figcaption>
+<img src="PT_9.png" alt="PT_9">
+<figcaption aria-hidden="true">PT_9</figcaption>
+</figure>
+<figure>
+<img src="PT_10.png" alt="PT_10">
+<figcaption aria-hidden="true">PT_10</figcaption>
+</figure>
+<h1 id="sec:1.1.3">电偶极子的电场</h1>
+<figure>
+<img src="PT_11.png" alt="PT_11">
+<figcaption aria-hidden="true">PT_11</figcaption>
 </figure>
 
     </div>
@@ -514,18 +537,21 @@ mjx-container[display="true"] + br {
       </div>
     </div>
           <div class="post-tags">
-              <a href="/tags/BTE/" rel="tag"># BTE</a>
+              <a href="/tags/PT/" rel="tag"># PT</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/2025/05/11/BTE_2/" rel="prev" title="Boltzmann transport equation - conductivity">
-                  <i class="fa fa-angle-left"></i> Boltzmann transport equation - conductivity
+                <a href="/2025/05/11/PT_2/" rel="prev" title="Polarization Theory - Part 2">
+                  <i class="fa fa-angle-left"></i> Polarization Theory - Part 2
                 </a>
             </div>
             <div class="post-nav-item">
+                <a href="/2025/05/11/BTE_dix/" rel="next" title="Boltzmann transport equation - Appendix">
+                  Boltzmann transport equation - Appendix <i class="fa fa-angle-right"></i>
+                </a>
             </div>
           </div>
     </footer>
