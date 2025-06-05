@@ -1,39 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Boltzmann transport equation - Basic Model</title>
-    <url>/2025/05/11/BTE_1/</url>
-    <content><![CDATA[<h2 id="sec:1.1"># 非平衡分布函数</h2>
-<figure>
-<img src="BTE_5.png" alt="BTE_5">
-<figcaption aria-hidden="true">BTE_5</figcaption>
-</figure>
-<figure>
-<img src="BTE_6.png" alt="BTE_6">
-<figcaption aria-hidden="true">BTE_6</figcaption>
-</figure>
-<figure>
-<img src="BTE_7.png" alt="BTE_7">
-<figcaption aria-hidden="true">BTE_7</figcaption>
-</figure>
-<h2 id="sec:1.2"># Boltzmann 输运方程推导</h2>
-<figure>
-<img src="BTE_8.png" alt="BTE_8">
-<figcaption aria-hidden="true">BTE_8</figcaption>
-</figure>
-<figure>
-<img src="BTE_9.png" alt="BTE_9">
-<figcaption aria-hidden="true">BTE_9</figcaption>
-</figure>
-]]></content>
-      <categories>
-        <category>Physics</category>
-      </categories>
-      <tags>
-        <tag>BTE</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Boltzmann transport equation - conductivity</title>
     <url>/2025/05/11/BTE_2/</url>
     <content><![CDATA[<h1 id="sec:1.1">电导率</h1>
@@ -64,6 +31,39 @@
 <figure>
 <img src="BTE_16.png" alt="BTE_16">
 <figcaption aria-hidden="true">BTE_16</figcaption>
+</figure>
+]]></content>
+      <categories>
+        <category>Physics</category>
+      </categories>
+      <tags>
+        <tag>BTE</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Boltzmann transport equation - Basic Model</title>
+    <url>/2025/05/11/BTE_1/</url>
+    <content><![CDATA[<h2 id="sec:1.1"># 非平衡分布函数</h2>
+<figure>
+<img src="BTE_5.png" alt="BTE_5">
+<figcaption aria-hidden="true">BTE_5</figcaption>
+</figure>
+<figure>
+<img src="BTE_6.png" alt="BTE_6">
+<figcaption aria-hidden="true">BTE_6</figcaption>
+</figure>
+<figure>
+<img src="BTE_7.png" alt="BTE_7">
+<figcaption aria-hidden="true">BTE_7</figcaption>
+</figure>
+<h2 id="sec:1.2"># Boltzmann 输运方程推导</h2>
+<figure>
+<img src="BTE_8.png" alt="BTE_8">
+<figcaption aria-hidden="true">BTE_8</figcaption>
+</figure>
+<figure>
+<img src="BTE_9.png" alt="BTE_9">
+<figcaption aria-hidden="true">BTE_9</figcaption>
 </figure>
 ]]></content>
       <categories>
@@ -153,10 +153,6 @@
     <title>Polarization Theory - Part 1</title>
     <url>/2025/05/11/PT_1/</url>
     <content><![CDATA[<p>Polarization Theory : Basic Model</p>
-<figure>
-<img src="SG_6.png" alt="SG_6">
-<figcaption aria-hidden="true">SG_6</figcaption>
-</figure>
 <h1 id="sec:1.1">模型：电偶极子</h1>
 <figure>
 <img src="PT_4.png" alt="PT_4">
